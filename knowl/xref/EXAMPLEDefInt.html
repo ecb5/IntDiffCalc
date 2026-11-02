@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">20.3.0.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">A Definite Integral.</span>
+</h2>
+<div class="para logical">
+<div class="para">Consider <a href="SECTIONInDefInt.html#FIGUREIntAsArea" class="internal" title="Figure 20.3.0.3">Figure 20.3.0.3</a> from part (c) of <a href="SECTIONInDefInt.html#EXAMPLEIntAsFuncSimple" class="internal" title="Example 20.3.0.2: The Integral as a Function">Example 20.3.0.2</a> again, but suppose we want the area under the graph between <span class="process-math">\(t=25\)</span> and <span class="process-math">\(t=60\text{.}\)</span>    Based on what we’ve done so far it would be reasonable to expect that we need first to define the function</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/FIGUREIntAsArea.html ./knowl/xref/EXAMPLEIntAsFuncSimple.html">
+\begin{equation*}
+F(x)= \int_{t=25}^{60}t-\frac{t^2}{100}\dx{t}
+\end{equation*}
+</div>
+<div class="para">and then evaluate <span class="process-math">\(F(60) \text{.}\)</span> It would also be wrong. Do you see why?</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEDefInt-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">As we saw in n <a href="SECTIONInDefInt.html#SECTIONInDefInt-21-3-7" class="internal" title="Equation 20.6">IVP (20.6)</a> <span class="process-math">\(F(x) \)</span> is the solution of the IVP</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/IVPDefInt1.html">
+\begin{align*}
+\dfdx{F}{x}=x-\frac{x^2}{100}, \amp{}\amp{}F(25)=0  \text{.}
+\end{align*}
+</div>
+<div class="para">One antiderivative of <span class="process-math">\(x-\frac{x^2}{100}\)</span> is <span class="process-math">\(\hat{F}(x) = \frac{x^2}{2}-\frac{x^3}{300}\text{,}\)</span> but it is not the one we need since <span class="process-math">\({\hat{F}(25)\ne 0}\text{.}\)</span> Clearly then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/IVPDefInt1.html">
+\begin{equation*}
+F(x)=\hat{F} (x)+C 
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(c\)</span> is chosen so that <span class="process-math">\(F(25)=0 \text{.}\)</span> We compute <span class="process-math">\(C\)</span> as usual:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/IVPDefInt1.html">
+\begin{align*}
+F(60)=0 \amp{}=\hat{F} (25) +C\\
+\amp{}=\frac{60^2}{2}-\frac{60^3}{300}+C, \text{ so }\\
+C\amp{}=-1080.
+\end{align*}
+</div>
+<div class="para">To compute the definite integral</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/IVPDefInt1.html">
+\begin{equation*}
+\int_{25}^{60}x-\frac{x^2}{100}\dx{x}
+\end{equation*}
+</div>
+<div class="para">we can use either <span class="process-math">\(F(x) \)</span> or <span class="process-math">\(\hat{F}(x)\)</span> since</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/IVPDefInt1.html">
+\begin{align*}
+\int_{25}^{60}x-\frac{x^2}{100}\dx{x} \amp{}= \eval{
+\int_{25}^{60}\frac{x^2}{2}-\frac{x^3}{300}\dx{x}}{x}{60} - \eval{
+\int_{25}^{60}\frac{x^2}{2}-\frac{x^3}{300}\dx{x}}{x}{25}\\
+\amp{}= F(60)-F(25)  \\
+\amp{}= \left(F(60)-1080\right)-\left(F(25) - 1080 \right)\\
+\amp{}= \hat{F}(60)-\hat{F}(25).
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEDefInt-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">For clarity we have worked through a specific integral in this example, but the underlying idea is quite general.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEDefInt-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 20.3.0.5: A Definite Integral"><a tabindex="-1" href="#EXAMPLEDefInt" title="Copy heading and permalink for Example 20.3.0.5: A Definite Integral" aria-label="Copy heading and permalink for Example 20.3.0.5: A Definite Integral">🔗</a></div>
+</article><span class="incontext"><a class="internal" href="SECTIONInDefInt.html#EXAMPLEDefInt">In Context</a></span>
+</body>
+</html>
