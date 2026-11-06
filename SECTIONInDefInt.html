@@ -22,9 +22,8 @@
 <style>
 @counter-style ptx-marker-1 { system: extends lower-roman; prefix: '('; suffix: ') '; }
 @counter-style ptx-marker-2 { system: extends decimal; prefix: '('; suffix: ') '; }
-@counter-style ptx-marker-3 { system: extends lower-roman; prefix: '(['; suffix: ')] '; }
-@counter-style ptx-marker-4 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
-@counter-style ptx-marker-5 { system: extends upper-roman; prefix: '('; suffix: ') '; }
+@counter-style ptx-marker-3 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+@counter-style ptx-marker-4 { system: extends upper-roman; prefix: '('; suffix: ') '; }
 </style>
 <script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
 startMathJax({
@@ -43,7 +42,7 @@ lang: "en-US",
 <meta name="twitter:description" content="From Practice to Theory">
 <meta property="og:description" content="From Practice to Theory">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.55"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.55"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.56"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.56"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -1137,26 +1136,26 @@ F(x) = \int_{t=a}^xf(t)\dx{t}.
 <div class="autopermalink" aria-hidden="true" data-description="Theorem 20.3.0.4: The Fundamental Theorem of Calculus (FTC)"><a tabindex="-1" href="#THEOREMFTC" title="Copy heading and permalink for Theorem 20.3.0.4: The Fundamental Theorem of Calculus (FTC)" aria-label="Copy heading and permalink for Theorem 20.3.0.4: The Fundamental Theorem of Calculus (FTC)">🔗</a></div>
 </article>
 <section class="paragraphs" id="SECTIONInDefInt-21"><h2 class="heading"><span class="title">Integration and Initial Value Problems.</span></h2>
-<div class="para logical" id="SECTIONInDefInt-21-3">
+<div class="para logical" id="SECTIONInDefInt-21-2">
 <div class="para">To see what this means let <span class="process-math">\(F(x) \)</span> be the function defined in the <a href="SECTIONInDefInt.html#THEOREMFTC" class="internal" title="Theorem 20.3.0.4: The Fundamental Theorem of Calculus (FTC)">FTC</a>. Observing that</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/THEOREMFTC.html" id="SECTIONInDefInt-21-3-3">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/THEOREMFTC.html" id="SECTIONInDefInt-21-2-3">
 \begin{equation*}
 \dfdx{F}{x}= F^\prime{}(x) = f(x)
 \end{equation*}
 </div>
 <div class="para">and that</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/THEOREMFTC.html" id="SECTIONInDefInt-21-3-4">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/THEOREMFTC.html" id="SECTIONInDefInt-21-2-4">
 \begin{equation*}
 F(a)=0 
 \end{equation*}
 </div>
 <div class="para">we see that <span class="process-math">\(F(x)\)</span> is the solution of the <dfn class="terminology">Initial Value Problem</dfn>:</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/THEOREMFTC.html" id="SECTIONInDefInt-21-3-7">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/THEOREMFTC.html" id="SECTIONInDefInt-21-2-7">
 \begin{align}
 \dfdx{F}{x} = f(x),\amp{}\amp{}F(a)=0.\tag{20.6}
 \end{align}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SECTIONInDefInt-21-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SECTIONInDefInt-21-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Integration and Initial Value Problems"><a tabindex="-1" href="#SECTIONInDefInt-21" title="Copy heading and permalink for Paragraphs: Integration and Initial Value Problems" aria-label="Copy heading and permalink for Paragraphs: Integration and Initial Value Problems">🔗</a></div>
 </section>
@@ -1194,7 +1193,7 @@ F(x)= \int_{t=25}^{60}t-\frac{t^2}{100}\dx{t}
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEDefInt-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="EXAMPLEDefInt-3">
-<div class="para">As we saw in n <a href="SECTIONInDefInt.html#SECTIONInDefInt-21-3-7" class="internal" title="Equation 20.6">IVP (20.6)</a> <span class="process-math">\(F(x) \)</span> is the solution of the IVP</div>
+<div class="para">As we saw in n <a href="SECTIONInDefInt.html#SECTIONInDefInt-21-2-7" class="internal" title="Equation 20.6">IVP (20.6)</a> <span class="process-math">\(F(x) \)</span> is the solution of the IVP</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/IVPDefInt1.html" id="EXAMPLEDefInt-3-3">
 \begin{align*}
 \dfdx{F}{x}=x-\frac{x^2}{100}, \amp{}\amp{}F(25)=0  \text{.}
