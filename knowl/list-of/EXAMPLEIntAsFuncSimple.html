@@ -80,7 +80,7 @@ D(\tau)=
 D(\tau)=     \int_{t=a}^{\tau{}} 60\dx{t}.
 \end{gather*}
 </div>
-<div class="para">This is accomplished by finding any antiderivative of the integrand and computing the difference between it’s value at <span class="process-math">\(t=\tau\)</span> and <span class="process-math">\(t=a \text{.}\)</span> One antiderivative of <span class="process-math">\(60\)</span> is <span class="process-math">\(60t+54.321\text{.}\)</span> (Why would we choose such a weird number for the constant?) Evaluating we see that</div>
+<div class="para">This is accomplished by finding any antiderivative of the integrand and computing the difference between it’s value at <span class="process-math">\(t=\tau\)</span> and <span class="process-math">\(t=a \text{.}\)</span> One antiderivative of <span class="process-math">\(60\)</span> is <span class="process-math">\(60t+54.321\text{.}\)</span> (Why would we choose such a weird number for the constant?) Evaluating, we see that</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/EQUATIONIntAsFunc.html">
 \begin{align*}
 D(\tau)\amp{} =     \int_{t=a}^{\tau} 60\dx{t}\\
@@ -126,10 +126,13 @@ t-\frac{t^2}{100} \dx{t}.
 </div>
 <div class="para">Evaluating we see that we will travel a total of</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/EXAMPLEIntAsFuncSimple.html">
-\begin{gather*}
-D(100)= \tbeval{\left(\frac{t^2}{2}-\frac{t^3}{300}\right)}{t=0}{100} \approx{}
+\begin{align*}
+D(100)\amp{}= \int_{t=0}^\tau V(t) \dx{t}\\
+\amp{}= \tbeval{ \left(\int
+t-\frac{t^2}{100} \dx{t}\right)}{t=0}{\tau}\\
+\amp{}=\tbeval{\left(\frac{t^2}{2}-\frac{t^3}{300}\right)}{t=0}{100} \approx{}
 1667 \text{ miles.}
-\end{gather*}
+\end{align*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
