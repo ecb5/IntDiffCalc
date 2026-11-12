@@ -25,7 +25,7 @@
 <div class="para">Consider <a href="SECTIONInDefInt.html#FIGUREIntAsArea" class="internal" title="Figure 20.3.0.3">Figure 20.3.0.3</a> from part (c) of <a href="SECTIONInDefInt.html#EXAMPLEIntAsFuncSimple" class="internal" title="Example 20.3.0.2: The Integral as a Function">Example 20.3.0.2</a> again, but suppose we want the area under the graph between <span class="process-math">\(t=25\)</span> and <span class="process-math">\(t=60\text{.}\)</span>    Based on what we’ve done so far it would be reasonable to expect that we need first to define the function</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/FIGUREIntAsArea.html ./knowl/xref/EXAMPLEIntAsFuncSimple.html">
 \begin{equation*}
-F(x)= \int_{t=25}^{60}t-\frac{t^2}{100}\dx{t}
+F(x)= \int_{t=25}^{x}t-\frac{t^2}{100}\dx{t}
 \end{equation*}
 </div>
 <div class="para">and then evaluate <span class="process-math">\(F(60) \text{.}\)</span> It would also be wrong. Do you see why?</div>
@@ -61,9 +61,11 @@ C\amp{}=-1080.
 <div class="para">we can use either <span class="process-math">\(F(x) \)</span> or <span class="process-math">\(\hat{F}(x)\)</span> since</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/IVPDefInt1.html">
 \begin{align*}
-\int_{25}^{60}x-\frac{x^2}{100}\dx{x} \amp{}= \eval{
-\int_{25}^{60}\frac{x^2}{2}-\frac{x^3}{300}\dx{x}}{x}{60} - \eval{
-\int_{25}^{60}\frac{x^2}{2}-\frac{x^3}{300}\dx{x}}{x}{25}\\
+\int_{25}^{60}x-\frac{x^2}{100}\dx{x} \amp{}=
+\tbeval{\left(\int x-\frac{x^2}{100}\dx{x}\right)}{25}{60}\\
+\amp{}=
+\eval{  \left(\frac{x^2}{2}-\frac{x^3}{300}\right)}{x}{60} - \eval{
+\left(\frac{x^2}{2}-\frac{x^3}{300}\right)}{x}{25}\\
 \amp{}= F(60)-F(25)  \\
 \amp{}= \left(F(60)-1080\right)-\left(F(25) - 1080 \right)\\
 \amp{}= \hat{F}(60)-\hat{F}(25).

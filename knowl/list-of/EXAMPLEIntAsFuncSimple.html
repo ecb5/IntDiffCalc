@@ -31,15 +31,31 @@
 <div class="para">The point here is not to find the solution but to set it up using the integral concept. If we can do that in this very familiar setting then we will have a procedure we can follow in a less familiar setting.  And once we can set up a problem as an integral finding the solution is reduced to evaluating the integral.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-2-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <div class="para logical">
-<div class="para">During every infinitesimal instant <span class="process-math">\(\dx{t}\text{,}\)</span> we travel the infinitesimal distance <span class="process-math">\(60\frac{\text{miles}}{\text{hour}}\times \dx{t} \text{
-hours} \text{.}\)</span>  Accumulating all of these  we see that the total distance is represented by:</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/SECTIONSummationAndAntidifferentiation.html">
-\begin{gather*}
-\int 60\dx{t} \text{ miles}.
-\end{gather*}
+<div class="para">During each infinitesimal instant <span class="process-math">\(\dx{t}\text{,}\)</span> we travel the infinitesimal distance <span class="process-math">\(60\dx{t}\text{.}\)</span> It is clear that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+60\frac{\text{miles}}{\text{hour}}\times{}\dx{t} \text{
+hours}
+\end{equation*}
 </div>
-<div class="para">There is a  problem of course. We’ve already defined the symbol <span class="process-math">\(\int 60\dx{t}\)</span> to be the most general antiderivative (a multifunction) whereas the distance traveled depends uniquely on (is an ordinary function of) the elapsed time.  We’ll need to modify our notation a bit to distinguish our current problem from the general antiderivative problem of <a href="SECTIONSummationAndAntidifferentiation.html" class="internal" title="Section 18.1: Antiderivatives, Integrals and Differential Equations">Section 18.1</a>.</div>
+<div class="para">is a measure of distance since</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\text{miles}}{\cancel{\text{hour}} }\times
+\cancel{\text{hours}} = \text{miles} \text{.}
+\end{equation*}
+</div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-2-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical">
+<div class="para">Thus the total distance is represented by the sum of the differential distances:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/SECTIONSummationAndAntidifferentiation.html">
+\begin{equation*}
+\int 60\dx{t} \text{ miles}\text{.}
+\end{equation*}
+</div>
+<div class="para">There is a problem of course. We’ve already defined the symbol <span class="process-math">\(\int 60\dx{t}\)</span> to be the most general antiderivative (a multifunction) whereas the distance traveled depends uniquely on (is an ordinary function of) the elapsed time.  We’ll need to modify our notation a bit to distinguish our current problem from the general antiderivative problem of <a href="SECTIONSummationAndAntidifferentiation.html" class="internal" title="Section 18.1: Antiderivatives, Integrals and Differential Equations">Section 18.1</a>.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-2-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <div class="para logical">
 <div class="para">Since we arrive at Philadelphia at time <span class="process-math">\(t=a\gt 0 \)</span> we must have begun at time <span class="process-math">\(t=0\)</span> somewhere east of Philadelphia. Ignoring the arbitrary constant for now (we’ll justify this momentarily) we see that the distance from our starting point to Philadelphia (when <span class="process-math">\(t=a\)</span>) is</div>
@@ -62,7 +78,7 @@ D(\tau)=
 \eval{\int{60}\dx{t}}{t}{a}.\tag{20.4}
 \end{equation}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-2-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-2-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>               
 <div class="para logical">
 <div class="para">Finally, notice how much notation is repeated in <a href="SECTIONInDefInt.html#EQUATIONIntAsFunc" class="internal" title="Equation 20.4">equation (20.4)</a>. To avoid having to write all of that every time we do this sort of computation we will combine the two terms and simplify our notation as follows:</div>
@@ -95,9 +111,9 @@ D(\tau)                \amp{}=60(\tau-a).
 \end{align*}
 </div>
 <div class="para">or the distance between the points <span class="process-math">\(a\)</span> and <span class="process-math">\(\tau{}\)</span> is sixty miles per hour times the length of time we drive, as we stated at the beginning of this example.</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-2-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-2-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
-<div class="para">The point of using <span class="process-math">\(54.321\)</span> as the constant was to get your attention. It doesn’t matter which constant we choose since it subtracts away in the end.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-2-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para">The point of using <span class="process-math">\(54.321\)</span> as the constant was to get your attention. It doesn’t matter which constant we choose since it subtracts away in the end.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-2-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 20.3.0.2.a: A Simple Example"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-2" title="Copy heading and permalink for Task 20.3.0.2.a: A Simple Example" aria-label="Copy heading and permalink for Task 20.3.0.2.a: A Simple Example">🔗</a></div>
 </article>
@@ -179,9 +195,9 @@ t-\frac{t^2}{100} \dx{t}.
 \begin{align}
 F(x) = \int_{t=0}^{x}f(t)\dx{t}\amp{}=\int_{t=0}^x
 t-\frac{t^2}{100} \dx{t}.\notag\\
-\amp{}= \tbeval{\left(\int_{t=0}^x
+\amp{}= \tbeval{\left(\int
 t-\frac{t^2}{100} \dx{t}\right)}{t=0}{x}\notag\\
-\amp{}= \left(\frac{x^2}{2}-\frac{x^3}{300}\right) - \underbrace{\left(\frac{0^2}{2}-\frac{0^3}{300}\right)}_{=F(0) }\tag{20.5}
+F(x)  \amp{}= \left(\frac{x^2}{2}-\frac{x^3}{300}\right) - \underbrace{\left(\frac{0^2}{2}-\frac{0^3}{300}\right)}_{=F(0) }\tag{20.5}
 \end{align}
 </div>
 <div class="para">so that     </div>
@@ -231,11 +247,15 @@ V(t)=f(t) = t-\frac{t^2}{100}
 <div class="para">Suppose we are walking in a straight line on a windy day and that the wind is blowing in our faces. Suppose further that the wind is gusting periodically. That is, suppose the wind blows in the negative direction with a base force of <span class="process-math">\(3\)</span> newtons but that it gusts periodically up to <span class="process-math">\(5\)</span> newtons, down to <span class="process-math">\(1\)</span> newton and then repeats the cycle once per minute.  The force opposing our motion can then be modeled as <span class="process-math">\(\phi(t) = -(3+2\sin(t))\text{,}\)</span> where <span class="process-math">\(t\)</span> is measured in minutes. In order to overcome the wind we’ll have to match its force with an opposing force in the positive direction. If our walking pace is <span class="process-math">\(80\frac{\text{meters}}{\text{minute}}\)</span> how much work must we do to overcome the wind as we walk <span class="process-math">\(160\)</span> meters?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAsFuncSimple-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <div class="para logical">
-<div class="para">The force we apply must exactly cancel the force of the wind. So the force we need to exert is <span class="process-math">\(F(t)=3+2\sin\left(t\right)\text{.}\)</span> Assuming that in the time differential  <span class="process-math">\(\dx{t}\)</span> we move an infintitesimal distance <span class="process-math">\(\dx{x}\)</span> the work we do in the time interval <span class="process-math">\(\dx{t}\)</span> is thus <span class="process-math">\(F(t)\dx{x}\)</span> so the total work we do in walking <span class="process-math">\(160\)</span> meters will be</div>
+<div class="para">The force we apply must exactly cancel the force of the wind. So the force we need to exert is <span class="process-math">\(F(t)=3+2\sin\left(t\right)\text{.}\)</span> Assuming that in the time differential  <span class="process-math">\(\dx{t}\)</span> we move an infintitesimal distance <span class="process-math">\(\dx{x}\)</span> the work we do in the time interval <span class="process-math">\(\dx{t}\)</span> is thus <span class="process-math">\(F(t)\dx{x}\)</span> so the total work we do in walking <span class="process-math">\(160\)</span> meters will be<details class="ptx-footnote" aria-live="polite" id="EXAMPLEIntAsFuncSimple-5-1-3-7"><summary class="ptx-footnote__number" title="Footnote 20.3"><sup> 3 </sup></summary>
+<div class="ptx-footnote__contents" id="EXAMPLEIntAsFuncSimple-5-1-3-7">
+<span class="process-math">\(W(x)\text{,}\)</span> is measured in <dfn class="terminology">newton-meters</dfn> since <span class="process-math">\(F(t) \)</span> is measured in <dfn class="terminology">newtons</dfn> and <span class="process-math">\(\dx{t} \)</span> is measured in meters.
+</div></details>
+</div>
 <div class="displaymath process-math">
 \begin{gather*}
-\int_{x=0}^{160} F(t)\dx{x} =
-\int_{x=0}^{160} 3+2\sin\left(t\right)\dx{x}.
+W(160)= \int_{x=0}^{160} F(t)\dx{x} = \int_{x=0}^{160}
+3+2\sin\left(t\right)\dx{x}.
 \end{gather*}
 </div>
 <div class="para">Apparently we need to evaluate this integral. But there is a problem. Do you see it?</div>
@@ -262,6 +282,7 @@ V(t)=f(t) = t-\frac{t^2}{100}
 \begin{align*}
 W(160)
 \amp{}=\int_{t=0}^{2}\left(2+\sin\left(t\right)\right)80\dx{t}\\
+\amp{}=\tbeval{\left(\int\left(2+\sin\left(t\right)\right)80\dx{t}\right)}{t=0}{2}\\
 \amp{}=\tbeval{80\left(2t-\cos\left(t\right)\right) }{t=0}{2}\\
 \amp{}=80\left[2\cdot2-\cos\left(2\right) - \left(2\cdot{0}-\cos\left(0\right)\right)\right]\\
 \amp{}=80\left[5-\cos\left(2\right)\right].
