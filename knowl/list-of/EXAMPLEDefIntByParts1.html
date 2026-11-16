@@ -19,7 +19,7 @@
 </head>
 <body class="ignore-math">
 <article class="example example-like"><h2 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">20.4.0.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">20.4.0.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
 <div class="para logical">
 <div class="para">Suppose we want to find the area under the curve <span class="process-math">\(y=x\sin\left(x\right)\)</span> on the interval <span class="process-math">\(\left(0,\pi\right)\)</span> by computing</div>
@@ -41,7 +41,9 @@ u \amp =x \amp \dx{v} \amp =\sin(x)\dx{x} \\
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/THEOREMIntegrationByParts.html">
 \begin{align*}
 \int_{x=0}^\pi x\sin(x) \dx{x} \amp
-{}=\ftceval{-x\cos(x)}{x}{0}{\pi} - \int_{x=0}^\pi
+{}= \tbeval{\left( \int_{}^{}{x\sin(x)\dx{x}} \right)}{x = 0}{\pi}\\
+\amp{}= \tbeval{\left( - x\cos(x) - \int_{}^{}{\cos(x)\dx{x}} \right)}{x = 0}{\pi}\\
+\amp{} =\ftceval{-x\cos(x)}{x}{0}{\pi} - \int_{x=0}^\pi
 \cos(x)\dx{x}\\
 \amp {}=\left( -\pi \cos(\pi)
 +0\cos(0)\right)-\ftceval{\sin(x)}{x}{0}{-\pi}\\
@@ -51,7 +53,7 @@ u \amp =x \amp \dx{v} \amp =\sin(x)\dx{x} \\
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEDefIntByParts1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Example 20.4.0.9"><a tabindex="-1" href="#EXAMPLEDefIntByParts1" title="Copy heading and permalink for Example 20.4.0.9" aria-label="Copy heading and permalink for Example 20.4.0.9">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 20.4.0.10"><a tabindex="-1" href="#EXAMPLEDefIntByParts1" title="Copy heading and permalink for Example 20.4.0.10" aria-label="Copy heading and permalink for Example 20.4.0.10">🔗</a></div>
 </article><span class="incontext"><a class="internal" href="SECTIONDefiniteIntegral.html#EXAMPLEDefIntByParts1">In Context</a></span>
 </body>
 </html>
