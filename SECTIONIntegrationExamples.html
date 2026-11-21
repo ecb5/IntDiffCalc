@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Some Elementary Examples</title>
+<title>Areas and Volumes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="_static/pretext/fonts/material-symbols-outlined.css">
@@ -64,14 +64,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.4.0';
+eBookConfig.runestone_version = '8.4.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.7e2ee203f2ecd6c8.bundle.js"></script><script src="_static/prefix-23.7d27cb317c36911a.bundle.js"></script><script src="_static/prefix-runestone.35a40fea06647cf2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-runestone.7062ede5334282a6.css">
+<script src="_static/prefix-runtime.82b21a4699b89209.bundle.js"></script><script src="_static/prefix-23.7d27cb317c36911a.bundle.js"></script><script src="_static/prefix-runestone.35a40fea06647cf2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-runestone.7062ede5334282a6.css">
 <script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -118,7 +118,7 @@ eBookConfig.enable_chatcodes =  false;
 <legend>Assistive technologies</legend>
 <label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
 </fieldset>
-<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="SECTIONWhyAreas.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="CHAPTERAppDefInt.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="AreasByIntegration.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="CHAPTERAppDefInt.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="CHAPTERAppDefInt.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-SurfAreaAndArcLength.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\DeclareMathOperator{\erf}{erf}
 \DeclareMathOperator{\arccot}{arccot}
 \DeclareMathOperator{\Arctan}{Arctan}
@@ -656,14 +656,22 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="CHAPTERAppDefInt.html" class="internal"><span class="codenumber">21</span> <span class="title">Applications of Definite Integrals</span></a></div>
 <ul class="structural toc-item-list contains-active" id="ptx-toc-group-CHAPTERAppDefInt">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="SECTIONWhyAreas.html" class="internal"><span class="codenumber">21.1</span> <span class="title">Introduction</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="SECTIONIntegrationExamples.html" class="internal"><span class="codenumber">21.2</span> <span class="title">Some Elementary Examples</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="AreasByIntegration.html" class="internal"><span class="codenumber">21.3</span> <span class="title">Areas in the Plane</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="VolumesByIntegration.html" class="internal"><span class="codenumber">21.4</span> <span class="title">Volumes</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-VolByShells.html" class="internal"><span class="codenumber">21.5</span> <span class="title">Volumes by Shells</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-SurfAreaAndArcLength.html" class="internal"><span class="codenumber">21.6</span> <span class="title">Surface Area and Arc Length</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-CenterMass.html" class="internal"><span class="codenumber">21.7</span> <span class="title">Center of Mass</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-OtherIntApplications.html" class="internal"><span class="codenumber">21.8</span> <span class="title">Other Applications of Integration</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="SECTIONIntegrationExamples.html" class="internal"><span class="codenumber">21.1</span> <span class="title">Areas and Volumes</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-SECTIONIntegrationExamples">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="SECTIONIntegrationExamples.html#AreasByIntegration" class="internal"><span class="codenumber">21.1.1</span> <span class="title">Areas</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="SECTIONIntegrationExamples.html#VolumesByIntegration" class="internal"><span class="codenumber">21.1.2</span> <span class="title">Volumes</span></a></div>
+<ul id="ptx-toc-group-VolumesByIntegration" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="SECTIONIntegrationExamples.html#SUBSUBSECTIONEltVolumes" class="internal"><span class="title">Elementary Volumes</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="SECTIONIntegrationExamples.html#sec-VolByShells" class="internal"><span class="title">Volumes by Shells</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-SurfAreaAndArcLength.html" class="internal"><span class="codenumber">21.2</span> <span class="title">Surface Area and Arc Length</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-CenterMass.html" class="internal"><span class="codenumber">21.3</span> <span class="title">Center of Mass</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-OtherIntApplications.html" class="internal"><span class="codenumber">21.4</span> <span class="title">Other Applications of Integration</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -769,10 +777,13 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
 <section class="section" id="SECTIONIntegrationExamples">
 <h1 class="heading hide-type">
-<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Some Elementary Examples</span>
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Areas and Volumes</span>
 </h1>
+<section class="introduction" id="SUBSECTIONElemtaryArea">
+<div class="para" id="SUBSECTIONElemtaryArea-1">Although definite integrals and areas are closely related (also volumes though we haven’t talked about them yet) they are not the same thing. They are so closely related in fact that in many cases your intuitive understanding of area can help you to understanding definite integrals.  The next few sections are devoted to helping you develop and hone your skills by computing lots of areas and volumes of various shapes, more or less in the absence of any compelling need. Understand that this is simply practice. When you encounter problems which reduce to computing an area or volume these you’ll want to be able to do this last step with a minimum of effort so you can concentrate on the problem you are actually interested in.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSECTIONElemtaryArea-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="EXAMPLEDistRateTime"><h2 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.2.0.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.0.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
 <article class="task exercise-like" id="EXAMPLEDistRateTime-1"><h3 class="heading">
 <span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Distance=Rate<span class="process-math">\(\boldsymbol{\times}\)</span>Time.</span>
@@ -799,7 +810,7 @@ r_1\times t_1=
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEDistRateTime-1-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 21.2.0.1.a: Distance=Rate\boldsymbol{\times}Time"><a tabindex="-1" href="#EXAMPLEDistRateTime-1" title="Copy heading and permalink for Task 21.2.0.1.a: Distance=Rate\boldsymbol{\times}Time" aria-label="Copy heading and permalink for Task 21.2.0.1.a: Distance=Rate\boldsymbol{\times}Time">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.0.1.a: Distance=Rate\boldsymbol{\times}Time"><a tabindex="-1" href="#EXAMPLEDistRateTime-1" title="Copy heading and permalink for Task 21.1.0.1.a: Distance=Rate\boldsymbol{\times}Time" aria-label="Copy heading and permalink for Task 21.1.0.1.a: Distance=Rate\boldsymbol{\times}Time">🔗</a></div>
 </article>
 <article class="task exercise-like" id="EXAMPLEDistRateTime-2"><h3 class="heading"><span class="codenumber">(b)</span></h3>
 <div class="para" id="EXAMPLEDistRateTime-2-1-1">Of course the model in part (a) is hopelessly unrealistic for a couple of reasons. For one, if we were to instanteously accelerate from <span class="process-math">\(0
@@ -831,13 +842,13 @@ D=\int_{t=0}^{t_1}\dx{D}
 </div> 
 <div class="para" id="EXAMPLEDistRateTime-2-1-4">Just as in part (a) you can verify that the result of the integration yields the correct physical value (distance in this case) by checking the units: <span class="process-math">\(v(t)\)</span> is measured as <span class="process-math">\(\frac{\text{distance}}{\text{time}}\)</span> and <span class="process-math">\(\dx{t}\)</span>  measures time to their product yields distance.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEDistRateTime-2-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 21.2.0.1.b"><a tabindex="-1" href="#EXAMPLEDistRateTime-2" title="Copy heading and permalink for Task 21.2.0.1.b" aria-label="Copy heading and permalink for Task 21.2.0.1.b">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.0.1.b"><a tabindex="-1" href="#EXAMPLEDistRateTime-2" title="Copy heading and permalink for Task 21.1.0.1.b" aria-label="Copy heading and permalink for Task 21.1.0.1.b">🔗</a></div>
 </article>
 <article class="task exercise-like" id="EXAMPLEDistRateTime-3"><h3 class="heading"><span class="codenumber">(c)</span></h3>
-<div class="para" id="EXAMPLEDistRateTime-3-1-1">An amusement park tracks of the number of guests entering  the park each day by measuring the rate at which guests enter through the gates. If we let <span class="process-math">\(G_r(t))\)</span> represent the rate of entry (measured in guests per minute) the graph in <a href="SECTIONIntegrationExamples.html#FIGUREAmuseGraph" class="internal" title="Figure 21.2.0.2">Figure 21.2.0.2</a> is typical.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEDistRateTime-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="EXAMPLEDistRateTime-3-1-1">An amusement park tracks of the number of guests entering  the park each day by measuring the rate at which guests enter through the gates. If we let <span class="process-math">\(G_r(t))\)</span> represent the rate of entry (measured in guests per minute) the graph in <a href="SECTIONIntegrationExamples.html#FIGUREAmuseGraph" class="internal" title="Figure 21.1.0.2">Figure 21.1.0.2</a> is typical.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEDistRateTime-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <figure class="figure figure-like" id="FIGUREAmuseGraph"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/AmuseGraph.png" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.2.0.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>At 8:00AM the gates open and there is an immediate surge of guests who have been waiting outside the locked gate.<div class="autopermalink" aria-hidden="true" data-description="Figure 21.2.0.2"><a tabindex="-1" href="#FIGUREAmuseGraph" title="Copy heading and permalink for Figure 21.2.0.2" aria-label="Copy heading and permalink for Figure 21.2.0.2">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.0.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>At 8:00AM the gates open and there is an immediate surge of guests who have been waiting outside the locked gate.<div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.0.2"><a tabindex="-1" href="#FIGUREAmuseGraph" title="Copy heading and permalink for Figure 21.1.0.2" aria-label="Copy heading and permalink for Figure 21.1.0.2">🔗</a></div></figcaption>
 </figure> 
 <div class="para logical" id="EXAMPLEDistRateTime-3-1-3">
 <div class="para">Clearly the area beneath the curve between 8AM and 8PM represents the total number of guests who entered the park that day. That area is given by the integral:</div>
@@ -848,11 +859,11 @@ D=\int_{t=0}^{t_1}\dx{D}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEDistRateTime-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 21.2.0.1.c"><a tabindex="-1" href="#EXAMPLEDistRateTime-3" title="Copy heading and permalink for Task 21.2.0.1.c" aria-label="Copy heading and permalink for Task 21.2.0.1.c">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Example 21.2.0.1"><a tabindex="-1" href="#EXAMPLEDistRateTime" title="Copy heading and permalink for Example 21.2.0.1" aria-label="Copy heading and permalink for Example 21.2.0.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.0.1.c"><a tabindex="-1" href="#EXAMPLEDistRateTime-3" title="Copy heading and permalink for Task 21.1.0.1.c" aria-label="Copy heading and permalink for Task 21.1.0.1.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Example 21.1.0.1"><a tabindex="-1" href="#EXAMPLEDistRateTime" title="Copy heading and permalink for Example 21.1.0.1" aria-label="Copy heading and permalink for Example 21.1.0.1">🔗</a></div>
 </article>
 <article class="example example-like" id="EXAMPLEIntAreaNonEqiv"><h2 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.2.0.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">An Integral is Not (Necessarily) an Area.</span>
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.0.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">An Integral is Not (Necessarily) an Area.</span>
 </h2>
 <div class="para" id="EXAMPLEIntAreaNonEqiv-2-1">Although definite integrals and areas are not the same thing they are closely related. So closely related in fact that your intuitive understanding of area can help with understanding integrals. But be careful. Always confirm your intuition.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAreaNonEqiv-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
@@ -895,195 +906,897 @@ F(x) = \int_{t=0}^{x }\sin\left(t\right)\dx{t}
 </div> 
 <div class="para" id="EXAMPLEIntAreaNonEqiv-2-9">It is tempting to call the area above the graph of <span class="process-math">\(\sin\left(x\right)\)</span> and between <span class="process-math">\(\pi \)</span> and <span class="process-math">\(2\pi \)</span> a <em class="emphasis">negative area</em>, and many people do, but this is not a good habit to fall into and we would discourage you from adopting it. The bottom line is that a definite integral corresponds to an area if and only if the differentials being accumulated are all positive as in our previous examples<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEIntAreaNonEqiv-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Example 21.2.0.3: An Integral is Not (Necessarily) an Area"><a tabindex="-1" href="#EXAMPLEIntAreaNonEqiv" title="Copy heading and permalink for Example 21.2.0.3: An Integral is Not (Necessarily) an Area" aria-label="Copy heading and permalink for Example 21.2.0.3: An Integral is Not (Necessarily) an Area">🔗</a></div>
-</article>
-<article class="example example-like" id="EXAMPLEBuffonNeedle"><h2 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.2.0.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Buffon Needle Problem.</span>
+<div class="autopermalink" aria-hidden="true" data-description="Example 21.1.0.3: An Integral is Not (Necessarily) an Area"><a tabindex="-1" href="#EXAMPLEIntAreaNonEqiv" title="Copy heading and permalink for Example 21.1.0.3: An Integral is Not (Necessarily) an Area" aria-label="Copy heading and permalink for Example 21.1.0.3: An Integral is Not (Necessarily) an Area">🔗</a></div>
+</article></section>
+<section class="subsection" id="AreasByIntegration">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Areas</span>
 </h2>
-<div class="para" id="EXAMPLEBuffonNeedle-3">In the examples in <a href="SECTIONIntegrationExamples.html#EXAMPLEDistRateTime" class="internal" title="Example 21.2.0.1">Example 21.2.0.1</a> it was relatively simple to see how to interpret an area as some other physical quantity. Just check the units.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="example example-like" id="EXAMPLEParabolicSection"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="introduction" id="EXAMPLEParabolicSection-1">
+<div class="para" id="EXAMPLEParabolicSection-1-1">Archimedes found a representation of the area of a generic parabolic section. We won’t be quite so ambitious.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="EXAMPLEBuffonNeedle-4">But there are other more abstract ways the area computations can arise.  For example, in this example we will convert the abstract problem of computating a probability into the computation of the ratio of two areas. Such a conversion is helpful because, as we’ve noted before, it allows us to bring our visual intuition into play.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="EXAMPLEBuffonNeedle-5">In 1777 <a class="external" href="https://mathshistory.st-andrews.ac.uk/Biographies/Buffon/" target="_blank">Georges Louis Leclerc</a>, <i class="foreign">Le Comte de Buffon</i> (the Count of Buffon), presented to the Royal Academy of Science in Paris what has since become known as the <dfn class="terminology">Buffon Needle Problem</dfn>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="figure figure-like" id="FIGUREGeorgesBuffon"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/IC/GeorgesBuffon.png" class="contained" alt="Portrait of Georges Buffon"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.2.0.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Georges Buffon (1707–1788)<div class="autopermalink" aria-hidden="true" data-description="Figure 21.2.0.5"><a tabindex="-1" href="#FIGUREGeorgesBuffon" title="Copy heading and permalink for Figure 21.2.0.5" aria-label="Copy heading and permalink for Figure 21.2.0.5">🔗</a></div></figcaption>
-</figure>
-<div class="para" id="EXAMPLEBuffonNeedle-7">Suppose that a needle is dropped randomly onto the floor where a series of parallel grid lines are drawn at a distance of one needle apart, as in the sketch below.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="figure figure-like" id="FIGUREBuffon1"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/Buffon1.png" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.2.0.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.2.0.6"><a tabindex="-1" href="#FIGUREBuffon1" title="Copy heading and permalink for Figure 21.2.0.6" aria-label="Copy heading and permalink for Figure 21.2.0.6">🔗</a></div></figcaption>
-</figure>
-<div class="para" id="EXAMPLEBuffonNeedle-9">Leclerc had determined that the probability that a needle will land crossing on of the grid lines is exactly <span class="process-math">\(\frac{2}{\pi
-}\)</span> which may seem a little counter-intuitive.  How does <span class="process-math">\(\pi \)</span> show up in a problem without a circle in it?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="EXAMPLEBuffonNeedle-10">To keep things simple we will assume that the length of a needle is <span class="process-math">\(1\)</span> (so we are measuring in “needle lengths” rather than inches, or centimeters, or light-years) and we’ll focus our attention on a single throw of the needle as depicted in <a href="SECTIONIntegrationExamples.html#FIGUREBuffon8" class="internal" title="Figure 21.2.0.8">Figure 21.2.0.8</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="figure figure-like" id="FIGUREBuffon9"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/IC/Buffon9.png" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.2.0.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>We have not drawn the eye of our needle because it is irrelevant.<div class="autopermalink" aria-hidden="true" data-description="Figure 21.2.0.7"><a tabindex="-1" href="#FIGUREBuffon9" title="Copy heading and permalink for Figure 21.2.0.7" aria-label="Copy heading and permalink for Figure 21.2.0.7">🔗</a></div></figcaption>
-</figure>
-<div class="para logical" id="EXAMPLEBuffonNeedle-12">
-<div class="para">A few facts are clear from <a href="SECTIONIntegrationExamples.html#FIGUREBuffon9" class="internal" title="Figure 21.2.0.7">Figure 21.2.0.7</a>:</div>
-<dl class="description-list">
-<dt id="EXAMPLEBuffonNeedle-12-2-1">Fact 1:<div class="autopermalink" aria-hidden="true" data-description="Item: Fact 1:"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-12-2-1" title="Copy heading and permalink for Item: Fact 1:" aria-label="Copy heading and permalink for Item: Fact 1:">🔗</a></div>
-</dt>
-<dd>
-<div class="para" id="EXAMPLEBuffonNeedle-12-2-1-2">A throw is specified by the angle <span class="process-math">\((\theta )\)</span> and the distance <span class="process-math">\((\delta )\)</span> from the lower end of the needle to the next grid line. That is, each ordered pair <span class="process-math">\(\left(\theta , \delta
-\right)\)</span> represents one thrown needle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-12-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</dd>
-<dt id="EXAMPLEBuffonNeedle-12-2-2">Fact 2:<div class="autopermalink" aria-hidden="true" data-description="Item: Fact 2:"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-12-2-2" title="Copy heading and permalink for Item: Fact 2:" aria-label="Copy heading and permalink for Item: Fact 2:">🔗</a></div>
-</dt>
-<dd>
-<div class="para" id="EXAMPLEBuffonNeedle-12-2-2-2">A needle will cross a grid line only when <span class="process-math">\(\delta
-\le\sin\left(\theta \right) \text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-12-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</dd>
-<dt id="EXAMPLEBuffonNeedle-12-2-3">Fact 3:<div class="autopermalink" aria-hidden="true" data-description="Item: Fact 3:"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-12-2-3" title="Copy heading and permalink for Item: Fact 3:" aria-label="Copy heading and permalink for Item: Fact 3:">🔗</a></div>
-</dt>
-<dd>
-<div class="para" id="EXAMPLEBuffonNeedle-12-2-3-2">
-<span class="process-math">\(0  \le\delta \le1  \)</span> (This should be clear.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-12-2-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</dd>
-<dt id="EXAMPLEBuffonNeedle-12-2-4">Fact 4:<div class="autopermalink" aria-hidden="true" data-description="Item: Fact 4:"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-12-2-4" title="Copy heading and permalink for Item: Fact 4:" aria-label="Copy heading and permalink for Item: Fact 4:">🔗</a></div>
-</dt>
-<dd>
-<div class="para" id="EXAMPLEBuffonNeedle-12-2-4-2">
-<span class="process-math">\(0\le \theta \le \pi \)</span> (Why do we not need all of the angles from <span class="process-math">\(0\)</span> to <span class="process-math">\(2\pi \text{?}\)</span>)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-12-2-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</dd>
-</dl>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="EXAMPLEBuffonNeedle-13">Thus each point <span class="process-math">\((\theta, \delta )\)</span> in the <span class="process-math">\(\pi
-\times\delta \)</span> rectangle (as seen in <a href="SECTIONIntegrationExamples.html#FIGUREBuffon8" class="internal" title="Figure 21.2.0.8">Figure 21.2.0.8</a> below) represents a single throw of the needle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="figure figure-like" id="FIGUREBuffon8"><div class="image-box" style="width: 85%; margin-left: 7.5%; margin-right: 7.5%;"><img src="external/IC/Buffon8.png" class="contained" alt="The graph of sin(x) enclosed in a 1 by pi box."></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.2.0.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The white region represents all of the throws that do not cross a horizontal line, and the shaded region represents all of the throws that do cross a horizontal line. The probability of a hit will be <span class="process-math">\(\frac{\text{area
-of white region}}{\text{area of the rectangle} }\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.2.0.8"><a tabindex="-1" href="#FIGUREBuffon8" title="Copy heading and permalink for Figure 21.2.0.8" aria-label="Copy heading and permalink for Figure 21.2.0.8">🔗</a></div></figcaption>
-</figure>
-<div class="para" id="EXAMPLEBuffonNeedle-15"> To see why the probability of a hit will be <span class="process-math">\(\frac{\text{area of
-white region}}{\text{area of the rectangle} }\)</span> suppose we randomly choose a large number of points in our <span class="process-math">\(\pi \times\delta\)</span> rectangle by, for example, throwing darts at it.  The probability of hitting the right half of the rectangle is <span class="process-math">\(\frac{1}{2}\text{,}\)</span> of hitting the left one-third is <span class="process-math">\(\frac{1}{3}\text{,}\)</span> of hitting the center two-fifths is <span class="process-math">\(\frac{2}{5}\text{,}\)</span> and so on. This idea is called <dfn class="terminology">geometric probability</dfn>. In general, if you have a planar region <span class="process-math">\(R\text{,}\)</span> whose area is <span class="process-math">\(A_1\)</span> and a sub-region <span class="process-math">\(S\text{,}\)</span> whose area is <span class="process-math">\(A_2\)</span> the probabilty that a randomly chosen point in <span class="process-math">\(R\)</span> will also be in the sub-region is the ratio: <span class="process-math">\(\frac{A_2}{A_1}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="EXAMPLEBuffonNeedle-16">The area of the entire rectangle in <a href="SECTIONIntegrationExamples.html#FIGUREBuffon9" class="internal" title="Figure 21.2.0.7">Figure 21.2.0.7</a> is clearly <span class="process-math">\(\pi \)</span> (why?), so we can solve Buffon’s problem if we can determine the area under the graph of <span class="process-math">\(\delta =\sin\left(\theta \right)\)</span> between <span class="process-math">\(0\)</span> and <span class="process-math">\(\pi \text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="EXAMPLEBuffonNeedle-17">
-<div class="para">But this is straightforward. The area under <span class="process-math">\(\delta
-=\sin\left(\theta \right)\)</span> will be the value of the definite integral</div>
-<div class="displaymath process-math" id="EXAMPLEBuffonNeedle-17-2">
-\begin{equation*}
-\int_{0}^{\pi }\sin\left(\theta \right)\dx{\theta } \left(=2
-\text{ if Buffon was correct}\right).
-\end{equation*}
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="EXAMPLEBuffonNeedle-18">
-<div class="para">But why guess when we can compute? We see that</div>
-<div class="displaymath process-math" id="EXAMPLEBuffonNeedle-18-1">
+<article class="task exercise-like" id="EXAMPLEParabolicSection-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para logical" id="EXAMPLEParabolicSection-2-1-1">
+<div class="para">We want to find the area of the parabolic section defined by the graphs of</div>
+<div class="displaymath process-math" id="EXAMPLEParabolicSection-2-1-1-1">
 \begin{align*}
-\int_{0}^{\pi }\sin\left(\theta \right)\dx{\theta }
-\amp{}= \left[\int\sin\left(\theta\right)\dx{\theta } \right]_{\theta =0}^{\pi}\\
-\amp{}= \tbeval{-\cos\left(\theta \right)}{\theta =0}{\pi }\\
-\amp{}=-\left[\cos\left(\pi \right)\right] - \left[-\cos\left(0\right)\right]\\
-\amp{}=2.
+y\amp{}=x^2 \text{ and }\\
+y\amp{}=2x.
 \end{align*}
 </div>
-<div class="para">Thus the probability of a Buffon needle landing on a gridline is <span class="process-math">\(\frac{2}{\pi }\)</span> just as Leclerc claimed.</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEBuffonNeedle-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Example 21.2.0.4: The Buffon Needle Problem"><a tabindex="-1" href="#EXAMPLEBuffonNeedle" title="Copy heading and permalink for Example 21.2.0.4: The Buffon Needle Problem" aria-label="Copy heading and permalink for Example 21.2.0.4: The Buffon Needle Problem">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="SECTIONIntegrationExamples-5"><h2 class="heading">
-<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.2.0.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h2>
-<div class="introduction" id="SECTIONIntegrationExamples-5-1">
-<div class="para" id="SECTIONIntegrationExamples-5-1-1">One of the authors once performed this experiment with a group of students (we substituted coffee stirrers for needles) and found that that <span class="process-math">\(64\)</span> out of <span class="process-math">\(100\)</span> “needles” landed crossing a grid line.  This would suggest that the probability of a hit is approximately <span class="process-math">\(\frac{64}{100}=0.64\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SECTIONIntegrationExamples-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</div>
-<article class="task exercise-like" id="SECTIONIntegrationExamples-5-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
-<div class="para" id="SECTIONIntegrationExamples-5-2-1-1">Use toothpicks, or coffee stirrers to run Buffon’s experiment one thousand times (get some friends to help). Use the result to estimate the value of <span class="process-math">\(\pi
-\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SECTIONIntegrationExamples-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 21.2.0.9.a"><a tabindex="-1" href="#SECTIONIntegrationExamples-5-2" title="Copy heading and permalink for Task 21.2.0.9.a" aria-label="Copy heading and permalink for Task 21.2.0.9.a">🔗</a></div>
-</article>
-<article class="task exercise-like" id="SECTIONIntegrationExamples-5-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
-<div class="para" id="SECTIONIntegrationExamples-5-3-1-1">Does your experimental result in part (a) support Leclerc’s claim?  Explain.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SECTIONIntegrationExamples-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 21.2.0.9.b"><a tabindex="-1" href="#SECTIONIntegrationExamples-5-3" title="Copy heading and permalink for Task 21.2.0.9.b" aria-label="Copy heading and permalink for Task 21.2.0.9.b">🔗</a></div>
-</article>
-<article class="task exercise-like" id="SECTIONIntegrationExamples-5-4"><h3 class="heading"><span class="codenumber">(c)</span></h3>
-<div class="para" id="SECTIONIntegrationExamples-5-4-1-1">Use your experimental result from part (a) to compute an approximation of <span class="process-math">\(\pi\text{.}\)</span> Compare your approximation with the actual value. How many decimals did you get?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SECTIONIntegrationExamples-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 21.2.0.9.c"><a tabindex="-1" href="#SECTIONIntegrationExamples-5-4" title="Copy heading and permalink for Task 21.2.0.9.c" aria-label="Copy heading and permalink for Task 21.2.0.9.c">🔗</a></div>
-</article>
-<div class="conclusion" id="SECTIONIntegrationExamples-5-5">
-<div class="para" id="SECTIONIntegrationExamples-5-5-1"> Of course, this experiment only provides an approximation of the probability. Moreover it is not a very accurate approximation because we only did <span class="process-math">\(100\)</span> throws.  but generally speaking the more simulations you run the better the approximation will be so in theory, if we could do a lot of throws, say <span class="process-math">\(100,000\text{,}\)</span> we could get a more accurate approximation.  Performing this experiment <span class="process-math">\(100,000\)</span> times is not practical, but simulating it on a computer is entirely reasonable.  This is the essence of an approximation technique known as the <dfn class="terminology">Monte Carlo Method</dfn> — simulate an experiment on a computer a large number of times and use it to approximate some unknown parameter.  This technique is often used in industry and finance especially when there are no known formulas to work with.  The trick is creating such a simulation in the first place.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SECTIONIntegrationExamples-5-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Problem 21.2.0.9"><a tabindex="-1" href="#SECTIONIntegrationExamples-5" title="Copy heading and permalink for Problem 21.2.0.9" aria-label="Copy heading and permalink for Problem 21.2.0.9">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="PROBLEMBuffonGen"><h2 class="heading">
-<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.2.0.10</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Two Generalizations of Buffon’s Problem.</span>
-</h2>
-<div class="introduction" id="PROBLEMBuffonGen-2">
-<div class="para" id="PROBLEMBuffonGen-2-1">In the classical Buffon Needle problem the distance between the parallel lines equal to the length of the needle.  We can generalize this by keeping the length of the needle equal to <span class="process-math">\(1\)</span> and letting the length, <span class="process-math">\(L\text{,}\)</span> between the lines vary. When we model this, we still have the following facts.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMBuffonGen-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="PROBLEMBuffonGen-2-2">
-<dl class="description-list">
-<dt id="PROBLEMBuffonGen-2-2-1-1">Fact 1:<div class="autopermalink" aria-hidden="true" data-description="Item: Fact 1:"><a tabindex="-1" href="#PROBLEMBuffonGen-2-2-1-1" title="Copy heading and permalink for Item: Fact 1:" aria-label="Copy heading and permalink for Item: Fact 1:">🔗</a></div>
-</dt>
-<dd>
-<div class="para" id="PROBLEMBuffonGen-2-2-1-1-2">As in the classical problem, the needle crosses a line only when <span class="process-math">\(\delta \le \sin (\theta )\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMBuffonGen-2-2-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</dd>
-<dt id="PROBLEMBuffonGen-2-2-1-2">Fact 2:<div class="autopermalink" aria-hidden="true" data-description="Item: Fact 2:"><a tabindex="-1" href="#PROBLEMBuffonGen-2-2-1-2" title="Copy heading and permalink for Item: Fact 2:" aria-label="Copy heading and permalink for Item: Fact 2:">🔗</a></div>
-</dt>
-<dd>
-<div class="para" id="PROBLEMBuffonGen-2-2-1-2-2">Each ordered pair <span class="process-math">\((\theta , \delta )\)</span> within the rectangle <span class="process-math">\(0\le \delta \le L\text{,}\)</span> <span class="process-math">\(0\le \theta \le \pi \)</span> represents a throw of the needle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMBuffonGen-2-2-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</dd>
-<dt id="PROBLEMBuffonGen-2-2-1-3">Fact 3:<div class="autopermalink" aria-hidden="true" data-description="Item: Fact 3:"><a tabindex="-1" href="#PROBLEMBuffonGen-2-2-1-3" title="Copy heading and permalink for Item: Fact 3:" aria-label="Copy heading and permalink for Item: Fact 3:">🔗</a></div>
-</dt>
-<dd>
-<div class="para" id="PROBLEMBuffonGen-2-2-1-3-2">The probability of a hit is still the ratio of the area of the hit region within the rectangle, divided by the area of the rectangle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMBuffonGen-2-2-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</dd>
-</dl>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMBuffonGen-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="PROBLEMBuffonGen-2-3">It turns out that we have two different pictures depending on whether <span class="process-math">\(L\ge 1\)</span> or <span class="process-math">\(L\lt{}1\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMBuffonGen-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</div>
-<article class="task exercise-like" id="PROBLEMBuffonGen-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
-<div class="para" id="PROBLEMBuffonGen-3-1-1">Use the sketch below to show that if <span class="process-math">\(L\ge 1\)</span> the probability of a hit is <span class="process-math">\(\frac{2}{L\pi }\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMBuffonGen-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/IC/BuffGen1.png" class="contained"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 21.2.0.10.a"><a tabindex="-1" href="#PROBLEMBuffonGen-3" title="Copy heading and permalink for Task 21.2.0.10.a" aria-label="Copy heading and permalink for Task 21.2.0.10.a">🔗</a></div>
-</article>
-<article class="task exercise-like" id="PROBLEMBuffonGen-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
-<div class="para logical" id="PROBLEMBuffonGen-4-1-1">
-<div class="para">Use the sketch below to show that if <span class="process-math">\(L\lt{}1\)</span> the probability of a hit is</div>
-<div class="displaymath process-math" id="PROBLEMBuffonGen-4-1-1-2">
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="EXAMPLEParabolicSection-2-1-2">
+<em class="emphasis">Always</em> sketch the problem if you can. Even a crude sketch will help to engage your visual intuition.In this case we only need to graph our two curves.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<figure class="figure figure-like" id="EXAMPLEParabolicSection-2-1-3"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/IC/ParabSec1.png" class="contained" alt="The area between y equals x and y equals x squared"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>We (the authors) find it very helpful to draw the differential rectangle twice: First, in place in the overall sketch and second, off to the side as shown. We find this makes it simpler to label the lengths and widths correctly. When the problems are simple, like this one, it may seem unnecesarily complicated, but when the problems, and their sketches, become more complex you will find that this is a very useful habit. You should start to develop the habit now.<div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.1.2"><a tabindex="-1" href="#EXAMPLEParabolicSection-2-1-3" title="Copy heading and permalink for Figure 21.1.1.2" aria-label="Copy heading and permalink for Figure 21.1.1.2">🔗</a></div></figcaption>
+</figure> 
+<div class="para logical" id="EXAMPLEParabolicSection-2-1-4">
+<div class="para">We want to “exhaust”<details class="ptx-footnote" aria-live="polite" id="EXAMPLEParabolicSection-2-1-4-2"><summary class="ptx-footnote__number" title="Footnote 21.1"><sup> 1 </sup></summary>
+<div class="ptx-footnote__contents" id="EXAMPLEParabolicSection-2-1-4-2">We are not using the Method of Exhaustion as Eudoxus or Archimedes’ understood it. But the underlying idea is still to “fill up” the space with objects whose area is easily computed.
+</div></details> the area of the section by filling it with infinitely many differential rectangles, similar to the generic rectangle in red whose width is <span class="process-math">\(\dx{x}\text{.}\)</span>  Since the upper and lower endpoints of our rectangle lie on the upper and lower bounding curves respectively, we see that the area of a typical rectangle is</div>
+<div class="displaymath process-math" id="EXAMPLEParabolicSection-2-1-4-4">
 \begin{equation*}
-\frac{2\left(1-\sqrt{1-L^2}\right)+L\left(\pi
--2{\inverse{\sin} \left(L\right)} \right)}{L\pi
-}=\frac{2}{L\pi }\left(1-\sqrt{1-L^2}\right)+\frac{2}{\pi
-}{\inverse{\cos} (L)\ }.
+\text{Area of rectangle} = \left(2x-x^2\right)\dx{x.}
 \end{equation*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMBuffonGen-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/IC/BuffGen2.png" class="contained"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 21.2.0.10.b"><a tabindex="-1" href="#PROBLEMBuffonGen-4" title="Copy heading and permalink for Task 21.2.0.10.b" aria-label="Copy heading and permalink for Task 21.2.0.10.b">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Problem 21.2.0.10: Two Generalizations of Buffon’s Problem"><a tabindex="-1" href="#PROBLEMBuffonGen" title="Copy heading and permalink for Problem 21.2.0.10: Two Generalizations of Buffon’s Problem" aria-label="Copy heading and permalink for Problem 21.2.0.10: Two Generalizations of Buffon’s Problem">🔗</a></div>
-</article>
-<div class="para" id="SECTIONIntegrationExamples-7">Although definite integrals and areas are closely related (also volumes though we haven’t talked about them yet) they are not the same thing. They are so closely related in fact that in many cases your intuitive understanding of area can help you to understanding definite integrals.  The next few sections are devoted to helping you develop and hone your skills by computing lots of areas and volumes of various shapes, more or less in the absence of any compelling need. Understand that this is simply practice. When you encounter problems which reduce to computing an area or volume these you’ll want to be able to do this last step with a minimum of effort so you can concentrate on the problem you are actually interested in.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SECTIONIntegrationExamples-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-2-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical" id="EXAMPLEParabolicSection-2-1-5">
+<div class="para">Take particular notice of two facts:</div>
+<ol class="decimal" style="list-style: ptx-marker-2;" id="EXAMPLEParabolicSection-2-1-5-1">
+<li id="EXAMPLEParabolicSection-2-1-5-1-1">
+<div class="para" id="EXAMPLEParabolicSection-2-1-5-1-1-1">Our clearly labeled sketch enabled us to read the area of the differential rectangle easily right off the picture. This was the point — to divide the problem into easily computable parts.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-2-1-5-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Section 21.2: Some Elementary Examples"><a tabindex="-1" href="#SECTIONIntegrationExamples" title="Copy heading and permalink for Section 21.2: Some Elementary Examples" aria-label="Copy heading and permalink for Section 21.2: Some Elementary Examples">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 1"><a tabindex="-1" href="#EXAMPLEParabolicSection-2-1-5-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="EXAMPLEParabolicSection-2-1-5-1-2">
+<div class="para" id="EXAMPLEParabolicSection-2-1-5-1-2-1">We first analyze our problem locally, at the infinitesimal scale.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-2-1-5-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 2"><a tabindex="-1" href="#EXAMPLEParabolicSection-2-1-5-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+</ol>
+<div class="para">We next compute the area of the shaded region by adding these “differential rectangles” together using the <a href="SECTIONInDefInt.html#THEOREMFTC" class="xref" data-knowl="./knowl/xref/THEOREMFTC.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 20.3.0.4: The Fundamental Theorem of Calculus (FTC)">FTC</a>. (See <a href="SECTIONIntegrationExamples.html#PROBLEMParabSect" class="internal" title="Problem 21.1.1.4">Problem 21.1.1.4</a> below.)</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/THEOREMFTC.html ./knowl/xref/PROBLEMParabSect.html" id="EXAMPLEParabolicSection-2-1-5-5">
+\begin{equation*}
+\text{Total Area of the Section} =
+\int_{x=0}^{2}\left(2x-x^2\right)\dx{x}=\frac{4}{3}.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-2-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="EXAMPLEParabolicSection-2-1-6">We highly recommend that you follow this pattern closely whenever you need to compute a definite integral.  You want to “exhaust” the area you are interested in by filling it with figures whose area is known. Most of the time these will be rectangles. But whatever they are your first task is to generate a generic formula for their area. So focus your attention first on the local problem. Then sum the differential areas using the <a href="SECTIONInDefInt.html#THEOREMFTC" class="xref" data-knowl="./knowl/xref/THEOREMFTC.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 20.3.0.4: The Fundamental Theorem of Calculus (FTC)">Fundamental Theorem of Calculus</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-2-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="EXAMPLEParabolicSection-2-1-7">Follow this routine on every problem, no matter how easy it may seem. This will help you to develop a habit of careful analysis. That habit will serve you well as the applications get more complicated. We (the authors) would insist but obviously we have no way to enforce the injunction. Nevertheless, we know what we are talking about. Listen to us.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-2-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>                           <div class="autopermalink" aria-hidden="true" data-description="Task 21.1.1.1.a"><a tabindex="-1" href="#EXAMPLEParabolicSection-2" title="Copy heading and permalink for Task 21.1.1.1.a" aria-label="Copy heading and permalink for Task 21.1.1.1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="EXAMPLEParabolicSection-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="EXAMPLEParabolicSection-3-1-1">In part (a) we divided the <span class="process-math">\(x-\)</span>axis into differentials which gave our red “differential rectangles” a vertical orientation. But of course there is nothing special about that choice. We could also have divided the <span class="process-math">\(y-\)</span>axis into differentials which would have resulted in rectangles with a horizontal orientation as in <a href="SECTIONIntegrationExamples.html#FIGUREParabSec2" class="internal" title="Figure 21.1.1.3">Figure 21.1.1.3</a> below. Either way we should obtain the same area. What is important is that we divide the region consistently into “parallel” rectangles. (Recall Cavalieri’s “all the lines.” Our differential rectangles are essentially taking on the role of Cavalieri’s lines.)    <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<figure class="figure figure-like" id="FIGUREParabSec2"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/IC/ParabSec2.png" class="contained" alt="Parabolic Segment in terms of y"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.1.3"><a tabindex="-1" href="#FIGUREParabSec2" title="Copy heading and permalink for Figure 21.1.1.3" aria-label="Copy heading and permalink for Figure 21.1.1.3">🔗</a></div></figcaption>
+</figure> 
+<div class="para" id="EXAMPLEParabolicSection-3-1-3">
+<a href="SECTIONIntegrationExamples.html#FIGUREParabSec2" class="internal" title="Figure 21.1.1.3">Figure 21.1.1.3</a> shows a sketch reflecting that choice.  Notice that this time the (horizontally oriented) rectangles will be stacked vertically like a pile of books on a table, rather than horizontally like books on a shelf. So this time our summation will also have a vertical orientation and the summation variable is <span class="process-math">\(y\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="EXAMPLEParabolicSection-3-1-4">Notice that you cannot use the <a href="SECTIONInDefInt.html#THEOREMFTC" class="xref" data-knowl="./knowl/xref/THEOREMFTC.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 20.3.0.4: The Fundamental Theorem of Calculus (FTC)">Fundamental Theorem Of Calculus</a> to compute a definite integral if the variable in the integrand does not match the variable in the differential.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-3-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="EXAMPLEParabolicSection-3-1-5">Continuing, we need an expression for the area of our red rectangle. Do you see what it is? Give it some thought before reading on.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-3-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical" id="EXAMPLEParabolicSection-3-1-6">
+<div class="para">The left end of the rectangle is on the curve <span class="process-math">\(y=2x\)</span> and the right end is on the curve <span class="process-math">\(y=x^2\text{.}\)</span> The length of our rectangle will be the difference between the <span class="process-math">\(x-\)</span>coordinates of these points. That is the area of our rectangle is</div>
+<div class="displaymath process-math" id="EXAMPLEParabolicSection-3-1-6-4">
+\begin{equation*}
+\left(\sqrt{y}-\frac{y}{2}\right)\dx{y}.
+\end{equation*}
+</div>
+<div class="para">Since the variable here is <span class="process-math">\(y\)</span> we also need to use the <span class="process-math">\(y-\)</span>coordinates in the indices. Thus our definite integral is:</div>
+<div class="displaymath process-math" id="EXAMPLEParabolicSection-3-1-6-7">
+\begin{equation*}
+\text{Total Area of the Section} = \int_{y=0}^{4}
+\left(\sqrt{y}-\frac{y}{2}\right)\dx{y} = \frac{4}{3}.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-3-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="EXAMPLEParabolicSection-3-1-7">
+<em class="alert">Note well:</em> In order to use the <a href="SECTIONInDefInt.html#THEOREMFTC" class="xref" data-knowl="./knowl/xref/THEOREMFTC.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 20.3.0.4: The Fundamental Theorem of Calculus (FTC)">Fundamental Theorem of Calculus</a> to compute a definite integral the variables in the integrand, the differential, and the indices must all match. This knowledge can serve as a check to make sure you have set up the definite integral correctly.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-3-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="EXAMPLEParabolicSection-3-1-8">Since the area of the section has not changed we expect to get the same number however we compute it.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabolicSection-3-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>                          <div class="autopermalink" aria-hidden="true" data-description="Task 21.1.1.1.b"><a tabindex="-1" href="#EXAMPLEParabolicSection-3" title="Copy heading and permalink for Task 21.1.1.1.b" aria-label="Copy heading and permalink for Task 21.1.1.1.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Example 21.1.1.1"><a tabindex="-1" href="#EXAMPLEParabolicSection" title="Copy heading and permalink for Example 21.1.1.1" aria-label="Copy heading and permalink for Example 21.1.1.1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="PROBLEMParabSect"><h3 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<article class="task exercise-like" id="PROBLEMParabSect-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="PROBLEMParabSect-1-1-1">Use the <a href="SECTIONInDefInt.html#THEOREMFTC" class="xref" data-knowl="./knowl/xref/THEOREMFTC.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 20.3.0.4: The Fundamental Theorem of Calculus (FTC)">Fundamental Theorem of Calculus</a> to compute the integral in part (a) of <a href="SECTIONIntegrationExamples.html#EXAMPLEParabolicSection" class="internal" title="Example 21.1.1.1">Example 21.1.1.1</a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMParabSect-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.1.4.a"><a tabindex="-1" href="#PROBLEMParabSect-1" title="Copy heading and permalink for Task 21.1.1.4.a" aria-label="Copy heading and permalink for Task 21.1.1.4.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="PROBLEMParabSect-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="PROBLEMParabSect-2-1-1">Use the <a href="SECTIONInDefInt.html#THEOREMFTC" class="xref" data-knowl="./knowl/xref/THEOREMFTC.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 20.3.0.4: The Fundamental Theorem of Calculus (FTC)">Fundamental Theorem of Calculus</a> to compute the integral in part (b) of <a href="SECTIONIntegrationExamples.html#EXAMPLEParabolicSection" class="internal" title="Example 21.1.1.1">Example 21.1.1.1</a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMParabSect-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.1.4.b"><a tabindex="-1" href="#PROBLEMParabSect-2" title="Copy heading and permalink for Task 21.1.1.4.b" aria-label="Copy heading and permalink for Task 21.1.1.4.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.1.4"><a tabindex="-1" href="#PROBLEMParabSect" title="Copy heading and permalink for Problem 21.1.1.4" aria-label="Copy heading and permalink for Problem 21.1.1.4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="PROBLEMArchQuadParab"><h3 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Archimedes Result By Modern Methods.</span>
+</h3>
+<div class="introduction" id="PROBLEMArchQuadParab-2">
+<div class="para" id="PROBLEMArchQuadParab-2-1">In this problem we will      use the full power of Analytic Geometry, Algebra, and a little bit of Calculus to derive the results that Archimedes had to obtain with considerably more labor and ingenuity using only Geometry.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMArchQuadParab-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="PROBLEMArchQuadParab-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para logical" id="PROBLEMArchQuadParab-3-1-1">
+<div class="para">Consider the following diagram. Show that the area of <span class="process-math">\(\triangle ABC\)</span> is</div>
+<div class="displaymath process-math" id="PROBLEMArchQuadParab-3-1-1-2">
+\begin{equation*}
+\left(\frac{b-a}{2}\right)^3.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMArchQuadParab-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<figure class="figure figure-like" id="FIGUREArchParabSection"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/IC/ArchParabSectHint.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.1.6"><a tabindex="-1" href="#FIGUREArchParabSection" title="Copy heading and permalink for Figure 21.1.1.6" aria-label="Copy heading and permalink for Figure 21.1.1.6">🔗</a></div></figcaption>
+</figure>               <div class="solutions">
+<details id="PROBLEMArchQuadParab-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="hint solution-like knowl__content">
+<div class="para" id="PROBLEMArchQuadParab-3-2-1">There are many ways to do this, but perhaps the simplest is to notice that <span class="process-math">\(\triangle ACD\)</span> and <span class="process-math">\(\triangle
+BCD\)</span> have the same base. What are their heights?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMArchQuadParab-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Hint 21.1.1.5.a.1"><a tabindex="-1" href="#PROBLEMArchQuadParab-3-2" title="Copy heading and permalink for Hint 21.1.1.5.a.1" aria-label="Copy heading and permalink for Hint 21.1.1.5.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.1.5.a"><a tabindex="-1" href="#PROBLEMArchQuadParab-3" title="Copy heading and permalink for Task 21.1.1.5.a" aria-label="Copy heading and permalink for Task 21.1.1.5.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="PROBLEMArchQuadParab-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="PROBLEMArchQuadParab-4-1-1">Set up and compute the definite integral which gives the area of the parabolic sector in our sketch.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMArchQuadParab-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.1.5.b"><a tabindex="-1" href="#PROBLEMArchQuadParab-4" title="Copy heading and permalink for Task 21.1.1.5.b" aria-label="Copy heading and permalink for Task 21.1.1.5.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="PROBLEMArchQuadParab-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="PROBLEMArchQuadParab-5-1-1">Show that your result in part (b) is exactly <span class="process-math">\(\frac{4}{3}\)</span> of the result in part (a). This was Archimedes’ result.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMArchQuadParab-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.1.5.c"><a tabindex="-1" href="#PROBLEMArchQuadParab-5" title="Copy heading and permalink for Task 21.1.1.5.c" aria-label="Copy heading and permalink for Task 21.1.1.5.c">🔗</a></div>
+</article>
+<div class="conclusion" id="PROBLEMArchQuadParab-6">
+<div class="para" id="PROBLEMArchQuadParab-6-1">In the <a href="Taylor-2.html#PROBLEMHowArchDidItSection" class="xref" data-knowl="./knowl/xref/PROBLEMHowArchDidItSection.html" data-reveal-label="Reveal" data-close-label="Close" title="Problem 23.1.0.4: How Archimedes Did It">next problem</a> we will use Archimedes results in this problem to show how his methods anticipated both the definite integral and <dfn class="terminology">Geometric Series</dfn>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PROBLEMArchQuadParab-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.1.5: Archimedes Result By Modern Methods"><a tabindex="-1" href="#PROBLEMArchQuadParab" title="Copy heading and permalink for Problem 21.1.1.5: Archimedes Result By Modern Methods" aria-label="Copy heading and permalink for Problem 21.1.1.5: Archimedes Result By Modern Methods">🔗</a></div>
+</article>
+<article class="example example-like" id="EXAMPLEParabSectionHoriz"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para logical" id="EXAMPLEParabSectionHoriz-1">
+<div class="para">Compute the area of the following region bounded by the curves</div>
+<div class="displaymath process-math" id="EXAMPLEParabSectionHoriz-1-1">
+\begin{align*}
+y\amp{}=0 \text{ (the }x-\text{axis)}\\
+y\amp{}=x+2\\
+y\amp{}=\sqrt{4-x}.
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabSectionHoriz-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="EXAMPLEParabSectionHoriz-2">A diagram of the essential features of this problem is given below. In the future you will be expected to provide your own.  In all of mathematics there is nothing quite as useful as an aid to both understanding and calculation as a visual representation, however crude, of the problem you are working on. Always sketch your problem and label it appropriately.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabSectionHoriz-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="FIGUREDefIntPiecewise"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/AreaExample1.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.1.8"><a tabindex="-1" href="#FIGUREDefIntPiecewise" title="Copy heading and permalink for Figure 21.1.1.8" aria-label="Copy heading and permalink for Figure 21.1.1.8">🔗</a></div></figcaption>
+</figure>
+<div class="para logical" id="EXAMPLEParabSectionHoriz-4">
+<div class="para">Clearly we need to accumulate the areas of differential rectangles <span class="process-math">\(x=-2\)</span> to <span class="process-math">\(x=4\text{,}\)</span> so it would seem that the definite integral to be evaluated is</div>
+<div class="displaymath process-math" id="EXAMPLEParabSectionHoriz-4-3">
+\begin{equation*}
+\int_{x=-2}^{4}f(x)\dx{x}
+\end{equation*}
+</div>
+<div class="para">where the graph of <span class="process-math">\(f(x) \)</span> is the curve in red in our diagram.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabSectionHoriz-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="EXAMPLEParabSectionHoriz-5">
+<div class="para">This is a correct understanding of the problem, but the actual computation of the integral requires a little more. In particular, notice that our integrand comes in two parts:</div>
+<div class="displaymath process-math" id="EXAMPLEParabSectionHoriz-5-1">
+\begin{equation*}
+f(x) = \begin{cases}
+x+2 \amp{} \text{ if } -2\le{}x\lt0\\
+\sqrt{4-x} \amp{} \text{ if }0\le{}x.
+\end{cases}
+\end{equation*}
+</div>
+<div class="para">That is, the nature of the integrand changes at <span class="process-math">\(x=0\)</span> and we need to account for this change when we compute the integral.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabSectionHoriz-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="EXAMPLEParabSectionHoriz-6" class="aside aside-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Aside<span class="colon heading-divison-mark heading-divison-mark__colon">:</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Piecewise Functions.</span>
+</h4></summary>
+<aside class="aside aside-like knowl__content">
+<div class="para" id="EXAMPLEParabSectionHoriz-6-2">Be sure you are clear on this point: The integrand is not two functions, it is a a single function with two parts. Which part we use depends on whether the <span class="process-math">\(x\)</span> is greater than or less than zero.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabSectionHoriz-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</aside></details>
+<div class="para logical" id="EXAMPLEParabSectionHoriz-7">
+<div class="para">In particular, the differential rectangles all have the form <span class="process-math">\((x+2)\dx{x} \)</span> when <span class="process-math">\(x\le{}0\)</span> and the form <span class="process-math">\(\sqrt{4-x}\dx{x}\)</span> when <span class="process-math">\(x\ge{}0\text{.}\)</span> Thus we have</div>
+<div class="displaymath process-math" id="EXAMPLEParabSectionHoriz-7-5">
+\begin{align*}
+\int_{x=-2}^{4}f(x)\dx{x}\amp{}= \int_{x=-2}^{0}f(x)\dx{x} + \int_{x=0}^{4}f(x)\dx{x}\\
+\amp{}= \underbrace{\int_{x=-2}^{0}(x+2) \dx{x}}_{=2} +
+\underbrace{\int_{x=0}^{4}\sqrt{4-x}\dx{x}}_{=\frac{16}{3}}.\\
+\amp{}=\frac{22}{3.}
+\end{align*}
+</div>
+<div class="para">We need to split the integral up in this case because the differential rectangles do not have the same form across the entire interval <span class="process-math">\(\left[0, 4\right]\text{.}\)</span>          </div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEParabSectionHoriz-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 21.1.1.7"><a tabindex="-1" href="#EXAMPLEParabSectionHoriz" title="Copy heading and permalink for Example 21.1.1.7" aria-label="Copy heading and permalink for Example 21.1.1.7">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="AreasByIntegration-6"><h3 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<article class="task exercise-like" id="AreasByIntegration-6-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="AreasByIntegration-6-1-1-1">Compute the two integrals in the previous example and verify that the given values are correct.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#AreasByIntegration-6-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.1.9.a"><a tabindex="-1" href="#AreasByIntegration-6-1" title="Copy heading and permalink for Task 21.1.1.9.a" aria-label="Copy heading and permalink for Task 21.1.1.9.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="AreasByIntegration-6-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="AreasByIntegration-6-2-1-1">The differential rectangles in <a href="SECTIONIntegrationExamples.html#EXAMPLEParabSectionHoriz" class="internal" title="Example 21.1.1.7">Example 21.1.1.7</a> had a veritical orientation.            Make  a new sketch where the differential rectangles have a horizontal orientation. Use your sketch to write down the accumualtion function which accumulates areas vertically. Then evaluate the definite integral and show that you also get a value of <span class="process-math">\(\frac{22}{3}\text{,}\)</span> as you would expect.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#AreasByIntegration-6-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.1.9.b"><a tabindex="-1" href="#AreasByIntegration-6-2" title="Copy heading and permalink for Task 21.1.1.9.b" aria-label="Copy heading and permalink for Task 21.1.1.9.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.1.9"><a tabindex="-1" href="#AreasByIntegration-6" title="Copy heading and permalink for Problem 21.1.1.9" aria-label="Copy heading and permalink for Problem 21.1.1.9">🔗</a></div>
+</article>
+<article class="example example-like" id="EXAMPLEAreaExam3"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="EXAMPLEAreaExam3-1">In the previous example, we had two choices. If we choose to accumulate the (vertically oriented) differentials horizontally (sum in the <span class="process-math">\(x\)</span> direction) the nature of the function forces us to split up the integral. If we choose to accumulate the (horizontally oriented) differential vertically (sum in the <span class="process-math">\(y\)</span> direction) we need to get everything in terms of <span class="process-math">\(y\)</span> because <span class="process-math">\(y\)</span> is the differential variable and the variables have to match before we can compute an integral. It’s nice to have a choice but we won’t always have that luxury.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEAreaExam3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="EXAMPLEAreaExam3-2">
+<div class="para">We would like to compute the area bounded by the curves</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/FIGURESinCosArea.html" id="EXAMPLEAreaExam3-2-1">
+\begin{align*}
+x\amp{}=0\\
+y\amp{}=\sin(x)\\
+y\amp{}=\cos(x) \text{ and}\\
+x\amp{}=\frac{5\pi}{4}
+\end{align*}
+</div>
+<div class="para">as seen in <a href="SECTIONIntegrationExamples.html#FIGURESinCosArea" class="internal" title="Figure 21.1.1.11">Figure 21.1.1.11</a>.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEAreaExam3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="FIGURESinCosArea"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/SinCosArea.png" class="contained" alt="Graphs of the sine of x and cosine of x"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Computing the area between <span class="process-math">\(\sin(x) \)</span> and <span class="process-math">\(\cos(x)\)</span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.1.11"><a tabindex="-1" href="#FIGURESinCosArea" title="Copy heading and permalink for Figure 21.1.1.11" aria-label="Copy heading and permalink for Figure 21.1.1.11">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="EXAMPLEAreaExam3-4">                       While in principle it is possible to use horizontally oriented differential rectangles here it should be clear that this will be much harder than summing in the <span class="process-math">\(x\)</span> direction. For all practical purposes there really is no other choice.  So, we’ll use a vertically oriented rectangles.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEAreaExam3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="EXAMPLEAreaExam3-5">
+<div class="para">But notice that from <span class="process-math">\(x=0\)</span> to <span class="process-math">\(x=\frac{\pi }{4}\)</span> the height  of our rectangles will be</div>
+<div class="displaymath process-math" id="EXAMPLEAreaExam3-5-3">
+\begin{equation*}
+\cos\left(x\right)-\sin\left(x\right)
+\end{equation*}
+</div>
+<div class="para">whereas from <span class="process-math">\(x=\frac{\pi }{4}\)</span> to <span class="process-math">\(\frac{5\pi }{4}\)</span> the height will be</div>
+<div class="displaymath process-math" id="EXAMPLEAreaExam3-5-6">
+\begin{equation*}
+\sin\left(x\right)-\cos\left(x\right)\text{.}
+\end{equation*}
+</div>
+<div class="para">Thus we will have to split the integral at <span class="process-math">\(x=\frac{\pi }{4}\)</span>
+</div>
+<div class="displaymath process-math" id="EXAMPLEAreaExam3-5-8">
+\begin{equation*}
+\text{Total area} = \int_{x=0}^{\frac{\pi
+}{4}}\cos\left(x\right)-\sin\left(x\right)\dx{x}
++
+\int_{x=\frac{\pi}{4}}^{\frac{5\pi
+}{4}}\sin\left(x\right)-\cos\left(x\right)\dx{x}.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#EXAMPLEAreaExam3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 21.1.1.10"><a tabindex="-1" href="#EXAMPLEAreaExam3" title="Copy heading and permalink for Example 21.1.1.10" aria-label="Copy heading and permalink for Example 21.1.1.10">🔗</a></div>
+</article>
+<article class="problem example-like" id="AreasByIntegration-8"><h3 class="heading">
+<span class="type">Drill</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.1.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="AreasByIntegration-8-2">Compute the area indicated in <a href="SECTIONIntegrationExamples.html#EXAMPLEAreaExam3" class="internal" title="Example 21.1.1.10">Example 21.1.1.10</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#AreasByIntegration-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Drill 21.1.1.12"><a tabindex="-1" href="#AreasByIntegration-8" title="Copy heading and permalink for Drill 21.1.1.12" aria-label="Copy heading and permalink for Drill 21.1.1.12">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection 21.1.1: Areas"><a tabindex="-1" href="#AreasByIntegration" title="Copy heading and permalink for Subsection 21.1.1: Areas" aria-label="Copy heading and permalink for Subsection 21.1.1: Areas">🔗</a></div>
+</section>
+<section class="subsection" id="VolumesByIntegration">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volumes</span>
+</h2>
+<section class="subsubsection" id="SUBSUBSECTIONEltVolumes">
+<h3 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Elementary Volumes</span>
+</h3>
+<div class="para" id="SUBSUBSECTIONEltVolumes-2">The following is a photograph of Problem 14 from the <span class="booktitle">Moscow Mathematical Papyrus,</span> an Egyptian mathematical papyrus from around 1850 BC which currently resides in the Pushkin Museum of Fine Arts.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/RhindPapyrus.png" class="contained"></div>
+<div class="para" id="SUBSUBSECTIONEltVolumes-4">The problem is to find the volume of a truncated pyramid (also called a frustum) whose height is <span class="process-math">\(6\text{,}\)</span> whose base is a square of side <span class="process-math">\(4\)</span> and whose top is a square with side <span class="process-math">\(2\text{.}\)</span>  The solution translates as follows.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<blockquote class="blockquote" id="SUBSUBSECTIONEltVolumes-5">
+<div class="para logical" id="SUBSUBSECTIONEltVolumes-5-1">
+<ul class="disc" id="SUBSUBSECTIONEltVolumes-5-1-1">
+<li id="SUBSUBSECTIONEltVolumes-5-1-1-1">
+<div class="para" id="p-derived-SUBSUBSECTIONEltVolumes-5-1-1-1">You are to square <span class="process-math">\(4\text{,}\)</span> result <span class="process-math">\(16\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-5-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="SUBSUBSECTIONEltVolumes-5-1-1-2">
+<div class="para" id="p-derived-SUBSUBSECTIONEltVolumes-5-1-1-2">You are to double <span class="process-math">\(4\text{,}\)</span> result <span class="process-math">\(8\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-5-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="SUBSUBSECTIONEltVolumes-5-1-1-3">
+<div class="para" id="p-derived-SUBSUBSECTIONEltVolumes-5-1-1-3">You are to square <span class="process-math">\(2\text{,}\)</span> result <span class="process-math">\(4\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-5-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="SUBSUBSECTIONEltVolumes-5-1-1-4">
+<div class="para" id="p-derived-SUBSUBSECTIONEltVolumes-5-1-1-4">You are to add the <span class="process-math">\(16\text{,}\)</span> the <span class="process-math">\(8\text{,}\)</span> and the <span class="process-math">\(4\text{,}\)</span> result <span class="process-math">\(28\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-5-1-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="SUBSUBSECTIONEltVolumes-5-1-1-5">
+<div class="para" id="p-derived-SUBSUBSECTIONEltVolumes-5-1-1-5">You are to take a third of <span class="process-math">\(6\text{,}\)</span> result <span class="process-math">\(2\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-5-1-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="SUBSUBSECTIONEltVolumes-5-1-1-6">
+<div class="para" id="p-derived-SUBSUBSECTIONEltVolumes-5-1-1-6">You are to take <span class="process-math">\(28\)</span> twice, result <span class="process-math">\(56\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-5-1-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="SUBSUBSECTIONEltVolumes-5-1-1-7">
+<div class="para" id="p-derived-SUBSUBSECTIONEltVolumes-5-1-1-7">See it (the volume) is <span class="process-math">\(56\text{.}\)</span>  You will find it right.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-5-1-1-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Quotation"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-5" title="Copy heading and permalink for Quotation" aria-label="Copy heading and permalink for Quotation">🔗</a></div>
+</blockquote>
+<div class="para logical" id="SUBSUBSECTIONEltVolumes-6">
+<div class="para">In modern terms, the volume is given by</div>
+<div class="displaymath process-math" id="SUBSUBSECTIONEltVolumes-6-1">
+\begin{equation*}
+\frac{1}{3}\cdot
+6\cdot \left(4^2+2\cdot 4+2^2\right)=56
+\end{equation*}
+</div>
+<div class="para">which is the correct answer.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="SUBSUBSECTIONEltVolumes-7">
+<div class="para">Mathematics historians believe that Egyptians, among other early civilizations, knew the general formula for the volume of a truncated pyramid of height <span class="process-math">\(h\)</span> and square bases whose sides are <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="SUBSUBSECTIONEltVolumes-7-4">
+\begin{equation*}
+\text{volume}=\frac{1}{3}h\left(a^2+ab+b^2\right)
+\end{equation*}
+</div>
+<div class="para">though it would not have been written in such a modern, general form.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="SUBSUBSECTIONEltVolumes-8">Mathematics historians are led to believe that Egyptians and other early civilizations also knew the related formula for the volume of a pyramid with height <span class="process-math">\(h\)</span> and a square base with side <span class="process-math">\(b\text{,}\)</span> <span class="process-math">\(volume=\frac{1}{3}hb^2\text{.}\)</span>  That being said, historians do not know exactly how either of these formulas were obtained.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="SUBSUBSECTIONEltVolumes-9"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="SUBSUBSECTIONEltVolumes-9-1">How does the formula for the volume of pyramid follow from the formula for the volume of a truncated pyramid?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.1"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-9" title="Copy heading and permalink for Problem 21.1.2.1" aria-label="Copy heading and permalink for Problem 21.1.2.1">🔗</a></div>
+</article>
+<div class="para" id="SUBSUBSECTIONEltVolumes-10">Also, one can use the formula for the volume of a pyramid to obtain the formula for the volume of a truncated pyramid as suggested by the Moscow Papyrus.  With that in mind, consider the side view of a truncated pyramid with height <span class="process-math">\(h\)</span> and base sides <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/IC/TruncPyr1.png" class="contained" alt="A truncated triangle with height=h, base=b, and top=a."></div>
+<div class="para" id="SUBSUBSECTIONEltVolumes-12">If one were to fill in the top of the pyramid that was chopped off<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/IC/TruncPyr2.png" class="contained"></div>
+<div class="para logical" id="SUBSUBSECTIONEltVolumes-14">
+<div class="para">If the formula for the volume of a pyramid is correct, then the volume of the truncated pyramid would be</div>
+<div class="displaymath process-math" id="SUBSUBSECTIONEltVolumes-14-1">
+\begin{equation*}
+\frac{1}{3}\left(x+h\right)b^2-\frac{1}{3}xa^2
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="SUBSUBSECTIONEltVolumes-15"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="SUBSUBSECTIONEltVolumes-15-1-1">
+<div class="para">Use similar triangles to determine <span class="process-math">\(x\)</span> in terms of <span class="process-math">\(a,\
+b,\ \)</span>and <span class="process-math">\(h\)</span> and use this to obtain the formula for the volume of the truncated pyramid</div>
+<div class="displaymath process-math" id="SUBSUBSECTIONEltVolumes-15-1-1-4">
+\begin{equation*}
+\frac{1}{3}h\left(a^2+ab+b^2\right)
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="SUBSUBSECTIONEltVolumes-15-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="hint solution-like knowl__content">
+<div class="para" id="SUBSUBSECTIONEltVolumes-15-2-1">At some point you will need to utilize the identity <span class="process-math">\(\frac{A^3-B^3}{A-B}=A^2+AB+B^2\text{.}\)</span>  Verify that this is correct and keep it in mind.  You will be using this later.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-15-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Hint 21.1.2.2.1"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-15-2" title="Copy heading and permalink for Hint 21.1.2.2.1" aria-label="Copy heading and permalink for Hint 21.1.2.2.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.2"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-15" title="Copy heading and permalink for Problem 21.1.2.2" aria-label="Copy heading and permalink for Problem 21.1.2.2">🔗</a></div>
+</article>
+<div class="para logical" id="SUBSUBSECTIONEltVolumes-16">
+<div class="para">There are questions which remain:</div>
+<ol class="lower-roman" style="list-style: ptx-marker-1;" id="SUBSUBSECTIONEltVolumes-16-1">
+<li id="SUBSUBSECTIONEltVolumes-16-1-1">
+<div class="para" id="p-derived-SUBSUBSECTIONEltVolumes-16-1-1">Is the formula for the volume of a pyramid correct?</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item i"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-16-1-1" title="Copy heading and permalink for Item i" aria-label="Copy heading and permalink for Item i">🔗</a></div>
+</li>
+<li id="SUBSUBSECTIONEltVolumes-16-1-2">
+<div class="para" id="p-derived-SUBSUBSECTIONEltVolumes-16-1-2">Do the same ideas work for other shapes such as a cone or a pyramid with a more general base?</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item ii"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-16-1-2" title="Copy heading and permalink for Item ii" aria-label="Copy heading and permalink for Item ii">🔗</a></div>
+</li>
+<li id="SUBSUBSECTIONEltVolumes-16-1-3">
+<div class="para" id="p-derived-SUBSUBSECTIONEltVolumes-16-1-3">What would these formulas look like?</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item iii"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-16-1-3" title="Copy heading and permalink for Item iii" aria-label="Copy heading and permalink for Item iii">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="SUBSUBSECTIONEltVolumes-17">Ancient civilizations knew answers to these questions but did not necessarily explain how they were obtained.  We can only speculate what they did.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="SUBSUBSECTIONEltVolumes-18">For example, if you use the following cone to fill the corresponding cylinder, it seems that it takes three cones to fill the cylinder.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="ConeAndCyl"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/IC/ConeCyl.png" class="contained" alt="A cone and cylinder of the same height."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.3"><a tabindex="-1" href="#ConeAndCyl" title="Copy heading and permalink for Figure 21.1.2.3" aria-label="Copy heading and permalink for Figure 21.1.2.3">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="SUBSUBSECTIONEltVolumes-20">This would lead one to guess that the volume of a cone is <span class="process-math">\(\frac{1}{3}\)</span> the height times the area of the base.  This coincides with our formula for the volume of a square based pyramid.  Could it be that the volume of a cone with an arbitrary shape for the base be <span class="process-math">\(\frac{1}{3}\)</span> the height times the area of the base as well?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="SUBSUBSECTIONEltVolumes-21">Fortunately, we have integral calculus at our disposal to address these questions.  Keeping in mind our general strategy of applying a relatively simple formula on an infinitely small piece and then integrating (adding) these infinitely small quantities, we will need to look at volumes in a more simplistic and general way.  Take for example the volume of a rectangular box.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="GenericRectangle"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/IC/GenRect.png" class="contained" alt="A generic rectangle"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.4"><a tabindex="-1" href="#GenericRectangle" title="Copy heading and permalink for Figure 21.1.2.4" aria-label="Copy heading and permalink for Figure 21.1.2.4">🔗</a></div></figcaption>
+</figure>
+<div class="para logical" id="SUBSUBSECTIONEltVolumes-23">
+<div class="para">You probably remember the volume of this box as length times width times height. Let’s restate the volume in this way</div>
+<div class="displaymath process-math" id="SUBSUBSECTIONEltVolumes-23-2">
+\begin{equation*}
+\text{Volume of a box} = \text{Area of a face} \times
+\text{Thickness} \text{.}
+\end{equation*}
+</div>
+<div class="para">The advantage of thinking this way is that it applies to more general objects. For example, the volume of the following circular cylinder and prism follow the same formula.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="VolEqualsFaceXThick"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/IC/VolFacThik.png" class="contained" alt="Pictures and formulas for the volume of a cylinder and a triangular wedge"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.5"><a tabindex="-1" href="#VolEqualsFaceXThick" title="Copy heading and permalink for Figure 21.1.2.5" aria-label="Copy heading and permalink for Figure 21.1.2.5">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="SUBSUBSECTIONEltVolumes-25">This idea even applies to slabs that have an irregular face.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-25" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="VolEqualsFaceXThick2"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/IC/FaceXThickIrreg.png" class="contained" alt="Picture and formula for the volume of an irregular slab."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.6"><a tabindex="-1" href="#VolEqualsFaceXThick2" title="Copy heading and permalink for Figure 21.1.2.6" aria-label="Copy heading and permalink for Figure 21.1.2.6">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="SUBSUBSECTIONEltVolumes-27">Let’s illustrate this by addressing the volume of cone.  Recall that we believe that the volume of a cone is 1/3 the volume of the corresponding cylinder, that is, it is <span class="process-math">\(\frac{1}{3}H{\pi R}^2\text{.}\)</span> With this in mind, we will put in a vertical axis, label it <span class="process-math">\(y\text{,}\)</span> and divide the cone into infinitely thin slices. As before, we will only draw one generic slice, but you must imagine that this cone is comprised of infinitely many such slices stacked.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-27" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="VolCone"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/IC/VolCone.png" class="contained" alt="Cone with generic horizontal rectangle."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.7"><a tabindex="-1" href="#VolCone" title="Copy heading and permalink for Figure 21.1.2.7" aria-label="Copy heading and permalink for Figure 21.1.2.7">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="SUBSUBSECTIONEltVolumes-29">Drawing this generic slice separately we can compute its volume.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-29" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="ConeSlice"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/IC/ConeSlice.png" class="contained" alt="A generic slice from a cone and a formula for its volume."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.8"><a tabindex="-1" href="#ConeSlice" title="Copy heading and permalink for Figure 21.1.2.8" aria-label="Copy heading and permalink for Figure 21.1.2.8">🔗</a></div></figcaption>
+</figure>
+<div class="para logical" id="SUBSUBSECTIONEltVolumes-31">
+<div class="para">Integrating these volumes, we get</div>
+<div class="displaymath process-math" id="SUBSUBSECTIONEltVolumes-31-1">
+\begin{equation*}
+\text{ Volume of cone} = \int_{y=0}^R{\pi r^2\dx{y}} \text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-31" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="SUBSUBSECTIONEltVolumes-32">What is left now is to put <span class="process-math">\(r\)</span> in terms of <span class="process-math">\(y\)</span> so the integral can be computed. This can be done by noticing that we have similar triangles.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-32" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="ConeSimTri"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/ConeSimTri.png" class="contained" alt="A right triangle with a similar right triangle inside."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.9"><a tabindex="-1" href="#ConeSimTri" title="Copy heading and permalink for Figure 21.1.2.9" aria-label="Copy heading and permalink for Figure 21.1.2.9">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="SUBSUBSECTIONEltVolumes-34">This gives us the proportion <span class="process-math">\(\frac{r}{y}=\frac{R}{H}\text{,}\)</span> so <span class="process-math">\(r=\frac{R}{H}y\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-34" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="ConeVol"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.10</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volume of a Cone.</span>
+</h4>
+<div class="para" id="ConeVol-2-1">Substitute this value for <span class="process-math">\(r\)</span> into the integral and show that the volume of the cone is, in fact,<span class="process-math">\(1/3\)</span> the volume of the cylinder.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ConeVol-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.10: Volume of a Cone"><a tabindex="-1" href="#ConeVol" title="Copy heading and permalink for Problem 21.1.2.10: Volume of a Cone" aria-label="Copy heading and permalink for Problem 21.1.2.10: Volume of a Cone">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="VolSqPyr"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.11</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volume of a Square Based Pyramid.</span>
+</h4>
+<div class="para" id="VolSqPyr-2-1"> Use the same idea as above to show that the volume of a square based pyramid is <span class="process-math">\(1/3\)</span> the volume of the box with the same base and height<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#VolSqPyr-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<figure class="figure figure-like" id="PyramidVolume"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/IC/PyrVol.png" class="contained" alt="A square based pyramid."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.12"><a tabindex="-1" href="#PyramidVolume" title="Copy heading and permalink for Figure 21.1.2.12" aria-label="Copy heading and permalink for Figure 21.1.2.12">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.11: Volume of a Square Based Pyramid"><a tabindex="-1" href="#VolSqPyr" title="Copy heading and permalink for Problem 21.1.2.11: Volume of a Square Based Pyramid" aria-label="Copy heading and permalink for Problem 21.1.2.11: Volume of a Square Based Pyramid">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="GeneralCone"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.13</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Generalized Cone.</span>
+</h4>
+<div class="para" id="GeneralCone-2-1">Consider the following “generalized cone.”<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#GeneralCone-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<figure class="figure figure-like" id="GenCone"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/GenCone.png" class="contained" alt="A cone an irregular base."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.14"><a tabindex="-1" href="#GenCone" title="Copy heading and permalink for Figure 21.1.2.14" aria-label="Copy heading and permalink for Figure 21.1.2.14">🔗</a></div></figcaption>
+</figure> 
+<div class="para" id="GeneralCone-2-3">Show that the volume of this cone is <span class="process-math">\(1/3\)</span> the volume of the “generalized cylinder” with the same height and same base. That is, show that the volume of this cone is <span class="process-math">\(3 \text{ (Area of base)}\times \text{ height }\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#GeneralCone-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="GeneralCone-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="hint solution-like knowl__content">
+<div class="para" id="GeneralCone-3-1">The generic slice is similar to the base. When you set up a proportion between the areas, it is proportional to the squares of the distances from the apex.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#GeneralCone-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Hint 21.1.2.13.1"><a tabindex="-1" href="#GeneralCone-3" title="Copy heading and permalink for Hint 21.1.2.13.1" aria-label="Copy heading and permalink for Hint 21.1.2.13.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.13: The Generalized Cone"><a tabindex="-1" href="#GeneralCone" title="Copy heading and permalink for Problem 21.1.2.13: The Generalized Cone" aria-label="Copy heading and permalink for Problem 21.1.2.13: The Generalized Cone">🔗</a></div>
+</article>
+<div class="para" id="SUBSUBSECTIONEltVolumes-38">Having determined the volume of various cones, let’s return to the problem of their frusta.  We saw that the volume of the frustum of a square based pyramid with height <span class="process-math">\(h\)</span> and base sides <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> is <span class="process-math">\(\frac{1}{3}h\left(a^2+ab+b^2\right)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-38" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="SUBSUBSECTIONEltVolumes-39"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.15</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="SUBSUBSECTIONEltVolumes-39-1">Consider the following frustum of a circular cone.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-39-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/IC/TruncPyr3.png" class="contained"></div>
+<div class="para logical" id="SUBSUBSECTIONEltVolumes-39-3">
+<div class="para">Use an argument similar to that of the truncated pyramid to show that the volume of the frustum of the cone is given by</div>
+<div class="displaymath process-math" id="SUBSUBSECTIONEltVolumes-39-3-1">
+\begin{equation*}
+\frac{1}{3}\pi h\left(a^2+ab+b^2\right)
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-39-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.15"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-39" title="Copy heading and permalink for Problem 21.1.2.15" aria-label="Copy heading and permalink for Problem 21.1.2.15">🔗</a></div>
+</article>
+<div class="para logical" id="SUBSUBSECTIONEltVolumes-40">
+<div class="para">To see how we can obtain the volume of the frustum of a generalized cone, notice that we can write the formulas we’ve already obtained as</div>
+<div class="displaymath process-math" id="SUBSUBSECTIONEltVolumes-40-1">
+\begin{equation*}
+\frac{1}{3}h\left(a^2+ab+b^2\right)=\frac{1}{3}h\left(a^2+\sqrt{a^2b^2}+b^2\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="SUBSUBSECTIONEltVolumes-40-2">
+\begin{equation*}
+\frac{1}{3}\pi h\left(a^2+ab+b^2\right)=\frac{1}{3}h(\pi
+a^2+\sqrt{\left(\pi a^2\right)\left(\pi b^2\right)}+\pi b^2)\text{.}
+\end{equation*}
+</div>
+<div class="para">This seems to suggest that the volume of the frustum of a generalized cone is given by</div>
+<div class="displaymath process-math" id="SUBSUBSECTIONEltVolumes-40-3">
+\begin{equation*}
+\frac{1}{3}h\left(A+\sqrt{AB}+B\right)
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(h\)</span> is the height and <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are the areas of the two bases.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="SUBSUBSECTIONEltVolumes-41"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.16</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="SUBSUBSECTIONEltVolumes-41-1-1">Verify that this formula for the volume of the frustum of a generalized cone is correct.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-41-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="SUBSUBSECTIONEltVolumes-41-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="hint solution-like knowl__content">
+<div class="para" id="SUBSUBSECTIONEltVolumes-41-2-1">Consider the following diagram of the cone and the frustum cut from it.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-41-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/IC/TruncCone1.png" class="contained"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Hint 21.1.2.16.1"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-41-2" title="Copy heading and permalink for Hint 21.1.2.16.1" aria-label="Copy heading and permalink for Hint 21.1.2.16.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.16"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-41" title="Copy heading and permalink for Problem 21.1.2.16" aria-label="Copy heading and permalink for Problem 21.1.2.16">🔗</a></div>
+</article>
+<div class="para" id="SUBSUBSECTIONEltVolumes-42">When we use an argument similar to that of the truncated pyramid, notice that <span class="process-math">\(\frac{x+h}{x}=\sqrt{\frac{B}{A}}\)</span> .]<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-42" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="SUBSUBSECTIONEltVolumes-43">###############################################################<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-43" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="SUBSUBSECTIONEltVolumes-44">As we stated before and as you have seen, we have been focusing on areas to help us understand properties of definite integrals. However, this idea of adding infinitesimal quantities can be applied in a number of other applications. Keep in mind our general strategy of applying a relatively simple formula on an infinitely small piece and then integrating (adding) these infinitely small quantities. Take, for example, the volume of the following box.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-44" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="SUBSUBSECTIONEltVolumes-45">Combining this formula with our idea of dividing and integrating provides a way to compute the volumes of more general solids.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-45" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="SUBSUBSECTIONEltVolumes-46">Let’s verify this. We know that the volume of the cylinder is given by <span class="process-math">\(\pi R^2\text{.}\)</span> We need to show that the volume of the cone is <span class="process-math">\(1/3\)</span> of that.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-46" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="FrustomVol"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.17</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volume of a Frustum.</span>
+</h4>
+<div class="introduction" id="FrustomVol-2">
+<div class="para" id="FrustomVol-2-1">A frustum of a cone is basically a cone with the top chopped off.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#FrustomVol-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="FrustumVol"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/IC/FrustumVol.png" class="contained" alt="A frustum"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.18"><a tabindex="-1" href="#FrustumVol" title="Copy heading and permalink for Figure 21.1.2.18" aria-label="Copy heading and permalink for Figure 21.1.2.18">🔗</a></div></figcaption>
+</figure>
+</div>
+<article class="task exercise-like" id="FrustomVol-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="FrustomVol-3-1-1">Use a definite integral to compute the volume of this frustum. Remember to do the entire set up as above – we insist!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#FrustomVol-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.2.17.a"><a tabindex="-1" href="#FrustomVol-3" title="Copy heading and permalink for Task 21.1.2.17.a" aria-label="Copy heading and permalink for Task 21.1.2.17.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="FrustomVol-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="FrustomVol-4-1-1">Verify your answer in part a by computing the volume of the frustum without calculus. This will involve finding the volume of the cone from which the frustum was cut and subtracting the volume of the top that was cut off. To do this, you will need to find the height of that cone.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#FrustomVol-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.2.17.b"><a tabindex="-1" href="#FrustomVol-4" title="Copy heading and permalink for Task 21.1.2.17.b" aria-label="Copy heading and permalink for Task 21.1.2.17.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.17: Volume of a Frustum"><a tabindex="-1" href="#FrustomVol" title="Copy heading and permalink for Problem 21.1.2.17: Volume of a Frustum" aria-label="Copy heading and permalink for Problem 21.1.2.17: Volume of a Frustum">🔗</a></div>
+</article>
+<figure class="figure figure-like" id="SphereByRevAboutX"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/SpherRevX.png" class="contained" alt="A sphere generated by revolving about the x axis."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.19<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.19"><a tabindex="-1" href="#SphereByRevAboutX" title="Copy heading and permalink for Figure 21.1.2.19" aria-label="Copy heading and permalink for Figure 21.1.2.19">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="SUBSUBSECTIONEltVolumes-49">We will draw and label a generic rectangle of width <span class="process-math">\(\dx{s}\)</span> and height <span class="process-math">\(y\)</span> and compute the volume of the disk generated by revolving this rectangle about the <span class="process-math">\(x\)</span>-axis. As before, we will draw and label the disk on the .<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-49" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="VolSphereWithDiffDisc"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/VolSphereWithDiffDisc.png" class="contained" alt="The same sphere with a generic disk and area and volume formulas."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.20<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.20"><a tabindex="-1" href="#VolSphereWithDiffDisc" title="Copy heading and permalink for Figure 21.1.2.20" aria-label="Copy heading and permalink for Figure 21.1.2.20">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="SUBSUBSECTIONEltVolumes-51">Again, we insist that you go through this process (including drawing all of the pictures) instead of trying to memorize some formula. Admit it, with the disk drawn and labeled, wasn’t determining the volume of disk relatively easy. The integral only came in when we wanted to “integrate” all of the volumes of the disks together.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-51" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="SphereVolXRev"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.21</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volume of a Sphere (rotation about the horizontal axis)..</span>
+</h4>
+<div class="para" id="SphereVolXRev-2-1"> Compute the integral above to determine that the volume of the sphere is, in fact, <span class="process-math">\(\frac43 \pi r^3\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SphereVolXRev-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.21: Volume of a Sphere (rotation about the horizontal axis)."><a tabindex="-1" href="#SphereVolXRev" title="Copy heading and permalink for Problem 21.1.2.21: Volume of a Sphere (rotation about the horizontal axis)." aria-label="Copy heading and permalink for Problem 21.1.2.21: Volume of a Sphere (rotation about the horizontal axis).">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="CyclRevX"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.22</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Revolving a Cycloid.</span>
+</h4>
+<div class="para" id="CyclRevX-2-1"> Find the volume of the solid generated by revolving one arch of the following cycloid about the <span class="process-math">\(x\)</span> axis.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#CyclRevX-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<figure class="figure figure-like" id="fig-CycloidVolume"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/IC/CycloidArea.png" class="contained" alt="Cycloid generated by rolling a circle."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.23<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.23"><a tabindex="-1" href="#fig-CycloidVolume" title="Copy heading and permalink for Figure 21.1.2.23" aria-label="Copy heading and permalink for Figure 21.1.2.23">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.22: Revolving a Cycloid"><a tabindex="-1" href="#CyclRevX" title="Copy heading and permalink for Problem 21.1.2.22: Revolving a Cycloid" aria-label="Copy heading and permalink for Problem 21.1.2.22: Revolving a Cycloid">🔗</a></div>
+</article>
+<div class="para" id="SUBSUBSECTIONEltVolumes-54">Of course, this technique can be applied to find the volume of a more general “solid of revolution.”<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-54" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="exer-GenSolidRevX"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.24</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="introduction" id="exer-GenSolidRevX-1">
+<div class="para" id="exer-GenSolidRevX-1-1"> Consider the following region bounded by the curves <span class="process-math">\(y=y_1(x)\)</span> and <span class="process-math">\(y=y_2(x)\)</span> and a generic rectangle of width <span class="process-math">\(\dx{x}\)</span> inside it.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-GenSolidRevX-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-GenVolRevX"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/GenVolRevX.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.25<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.25"><a tabindex="-1" href="#fig-GenVolRevX" title="Copy heading and permalink for Figure 21.1.2.25" aria-label="Copy heading and permalink for Figure 21.1.2.25">🔗</a></div></figcaption>
+</figure>
+</div>
+<article class="task exercise-like" id="exer-GenSolidRevX-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="exer-GenSolidRevX-2-1-1">Draw and label the thickness and inside and outside radii of the “washer” created by revolving this generic rectangle about the <span class="process-math">\(x\)</span>-axis.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-GenSolidRevX-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.2.24.a"><a tabindex="-1" href="#exer-GenSolidRevX-2" title="Copy heading and permalink for Task 21.1.2.24.a" aria-label="Copy heading and permalink for Task 21.1.2.24.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exer-GenSolidRevX-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="exer-GenSolidRevX-3-1-1">
+<div class="para">Use the result to show that the volume of the solid generated by revolving this region about the <span class="process-math">\(x\)</span>-axis is given by</div>
+<div class="displaymath process-math" id="exer-GenSolidRevX-3-1-1-2">
+\begin{equation*}
+\pi \int_{x=a}^b \left( y_2^2-y_1^2\right) \dx{x} \text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-GenSolidRevX-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.2.24.b"><a tabindex="-1" href="#exer-GenSolidRevX-3" title="Copy heading and permalink for Task 21.1.2.24.b" aria-label="Copy heading and permalink for Task 21.1.2.24.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exer-GenSolidRevX-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="exer-GenSolidRevX-4-1-1">To emphasize that you should use the process and not memorize a formula, find the integral that will compute the volume of the solid generated by revolving this region about a horizontal line <span class="process-math">\(y=c\)</span> not passing through the region. You can assume for the sake of argument that the line lies below the region.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-GenSolidRevX-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.2.24.c"><a tabindex="-1" href="#exer-GenSolidRevX-4" title="Copy heading and permalink for Task 21.1.2.24.c" aria-label="Copy heading and permalink for Task 21.1.2.24.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.24"><a tabindex="-1" href="#exer-GenSolidRevX" title="Copy heading and permalink for Problem 21.1.2.24" aria-label="Copy heading and permalink for Problem 21.1.2.24">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="GenVolRevY"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.26</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="introduction" id="GenVolRevY-1">
+<div class="para" id="GenVolRevY-1-1"> Consider the following region bounded by the curves <span class="process-math">\(x=x_1(y)\)</span> and <span class="process-math">\(x=x_2(y)\)</span> and the vertical line <span class="process-math">\(x=c\)</span> to the left of this region.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#GenVolRevY-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-GenVolRevY"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/GenVolRevY.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.27<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.27"><a tabindex="-1" href="#fig-GenVolRevY" title="Copy heading and permalink for Figure 21.1.2.27" aria-label="Copy heading and permalink for Figure 21.1.2.27">🔗</a></div></figcaption>
+</figure>
+</div>
+<article class="task exercise-like" id="GenVolRevY-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="GenVolRevY-2-1-1">Draw and label the washer created by revolving the horizontal rectangle around the line <span class="process-math">\(x=c\)</span> and use this to find a formula for the volume of this washer.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#GenVolRevY-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.2.26.a"><a tabindex="-1" href="#GenVolRevY-2" title="Copy heading and permalink for Task 21.1.2.26.a" aria-label="Copy heading and permalink for Task 21.1.2.26.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="GenVolRevY-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<details id="GenVolRevY-3-1-1" class="aside aside-like born-hidden-knowl"><summary class="knowl__link"><h6 class="heading">
+<span class="type">Aside<span class="colon heading-divison-mark heading-divison-mark__colon">:</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">To do.</span>
+</h6></summary>
+<aside class="aside aside-like knowl__content">
+<div class="para" id="GenVolRevY-3-1-1-2">h and k are messed up in this problem.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#GenVolRevY-3-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</aside></details> 
+<div class="para logical" id="GenVolRevY-3-1-2">
+<div class="para">Integrate your answer from part (a) to show that the volume of the solid formed by revolving the region about the line <span class="process-math">\(x=c\)</span> is given by</div>
+<div class="displaymath process-math" id="GenVolRevY-3-1-2-2">
+\begin{equation*}
+\pi\int_{y=h}^k \left[\left(x_2-c\right)^2
+-\left(x_1-c\right)^2\right] \dx{y} \text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#GenVolRevY-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.2.26.b"><a tabindex="-1" href="#GenVolRevY-3" title="Copy heading and permalink for Task 21.1.2.26.b" aria-label="Copy heading and permalink for Task 21.1.2.26.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.26"><a tabindex="-1" href="#GenVolRevY" title="Copy heading and permalink for Problem 21.1.2.26" aria-label="Copy heading and permalink for Problem 21.1.2.26">🔗</a></div>
+</article>
+<details id="SUBSUBSECTIONEltVolumes-57" class="aside aside-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Aside<span class="colon heading-divison-mark heading-divison-mark__colon">:</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">To do.</span>
+</h4></summary>
+<aside class="aside aside-like knowl__content">
+<div class="para" id="SUBSUBSECTIONEltVolumes-57-2">We need to add a bunch of volume of revolution problems here.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes-57-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</aside></details><div class="autopermalink" aria-hidden="true" data-description="Subsubsection: Elementary Volumes"><a tabindex="-1" href="#SUBSUBSECTIONEltVolumes" title="Copy heading and permalink for Subsubsection: Elementary Volumes" aria-label="Copy heading and permalink for Subsubsection: Elementary Volumes">🔗</a></div>
+</section>
+<section class="subsubsection" id="sec-VolByShells">
+<h3 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volumes by Shells</span>
+</h3>
+<div class="para" id="sec-VolByShells-2">As you no doubt noticed, when we had to compute the volume of a solid generated by revolving a region about the <span class="process-math">\(x\)</span>-axis (or any horizontal line), we obtained an integral with <span class="process-math">\(\dx{x}\)</span> in it, which meant that we would put everything in terms of <span class="process-math">\(x\text{.}\)</span> Likewise, when we revolved about the <span class="process-math">\(y\)</span>-axis, we had to put everything in terms of <span class="process-math">\(y\text{.}\)</span> Sometimes this is not practical or leads to an undesirable integral. Consider the following example of the region bounded by <span class="process-math">\(y=0\)</span> and <span class="process-math">\(y=3(x-x^3)\)</span> revolved about the <span class="process-math">\(y\)</span>-axis. Going through our set up (Yes, we must do it too!), we have the following generic rectangle revolved around to create a washer.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-VolByShells-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-VolByWasher"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/VolByWasher.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.28<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.28"><a tabindex="-1" href="#fig-VolByWasher" title="Copy heading and permalink for Figure 21.1.2.28" aria-label="Copy heading and permalink for Figure 21.1.2.28">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="sec-VolByShells-4">This set up (with the picture) was really the easy part. The harder part is putting everything in terms of <span class="process-math">\(y\)</span> and integrating. For instance, we would need to solve <span class="process-math">\(y=3(x-x^3)\)</span> for <span class="process-math">\(x\)</span> in terms of <span class="process-math">\(y\text{.}\)</span> Furthermore, we would need to figure out the maximum value of <span class="process-math">\(y=3\left(x-x^3\right) \)</span> on the interval <span class="process-math">\([0,1]\text{.}\)</span>  All of this is doable, but inconvenient. What would be preferable would be to leave everything in terms of <span class="process-math">\(x\text{,}\)</span> but this would entail drawing a vertical box instead.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-VolByShells-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="IntShellExamp"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/IC/IntShellExamp.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.29<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.29"><a tabindex="-1" href="#IntShellExamp" title="Copy heading and permalink for Figure 21.1.2.29" aria-label="Copy heading and permalink for Figure 21.1.2.29">🔗</a></div></figcaption>
+</figure>
+<div class="para logical" id="sec-VolByShells-6">
+<div class="para">If we were to treat the right–hand object as a very tall washer with inside radius <span class="process-math">\(x\text{,}\)</span> outside radius <span class="process-math">\(x+\dx{x}\text{,}\)</span> and height <span class="process-math">\(y\text{,}\)</span> we would get its volume to be</div>
+<div class="displaymath process-math" id="sec-VolByShells-6-5">
+\begin{equation*}
+\pi \left( (x+\dx{x})^2\right) y =\pi \left(
+x^2+2x\dx{x}+(\dx{x})^2\right) y=\pi
+\left(2x\dx{x}+(\dx{x})^2\right)
+\end{equation*}
+</div>
+<div class="para">Recalling our reasoning with the product rule, we can ignore <span class="process-math">\((\dx{x})^2\)</span> as it is infinitely small compared to <span class="process-math">\(\dx{x}\text{,}\)</span> so that the volume of this tall washer is</div>
+<div class="displaymath process-math" id="sec-VolByShells-6-8">
+\begin{equation*}
+2\pi xy\dx{x}
+\end{equation*}
+</div>
+<div class="para">which we could then integrate to obtain</div>
+<div class="displaymath process-math" id="sec-VolByShells-6-9">
+\begin{align*}
+\text{ Total Volume }=\int_{x=0}^1 2\pi xy\dx{x} \amp
+=\int_{x=0}^1x\left( x-x^3\right) \dx{x}\\
+\amp =6\pi \int_{x=0}^1 x^2-x^4\dx{x}\\
+\amp =6\pi \left(\frac14-\frac15\right) \\
+\amp =\frac{12\pi }{15}.
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-VolByShells-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-VolByShells-7">If you feel as funny (or perhaps more) about ignoring the <span class="process-math">\((\dx{x})^2\)</span> as you did with the product rule, there is another way to look at this that might help your queasiness and provide a better way of remembering what to do in this situation. Basically, instead of calling the revolution of the generic rectangle a tall washer, we will call it a (cylindrical) shell. This sounds somewhat silly, but it really points out the difference. For a washer, the height is infinitesimal, whereas for a shell, the thickness of the wall is infinitesimal. For a physical analogy, this is the difference between an actual metal washer and a piece of metal tubing. To figure out the volume of the tubing (shell), we can slice it open and flatten it out into a rectangular piece of metal. This is not so easily done with a washer. This provides a shortcut (and device) for computing the volume of a shell; just compute the volume of the flattened version.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-VolByShells-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="ShellFlattened"><div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/IC/ShellFlattened.png" class="contained" alt="A cylindrical shell opened and flattened."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.30<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.30"><a tabindex="-1" href="#ShellFlattened" title="Copy heading and permalink for Figure 21.1.2.30" aria-label="Copy heading and permalink for Figure 21.1.2.30">🔗</a></div></figcaption>
+</figure>
+<div class="para logical" id="sec-VolByShells-9">
+<div class="para">Using the flattened–out version, we have that the volume of the shell is given by</div>
+<div class="displaymath process-math" id="sec-VolByShells-9-2">
+\begin{align*}
+\text{Volume of shell}\amp = \text{length}\cdot
+height\cdot thickness \\
+\amp = \text{circumference}\cdot height\cdot thickness\\
+2\pi xy\dx{x}
+\end{align*}
+</div>
+<div class="para">as we obtained before.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-VolByShells-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-VolByShells-10">
+<div class="para">Actually, a similar formula works for any washer:</div>
+<div class="displaymath process-math" id="sec-VolByShells-10-1">
+\begin{align*}
+\text{Volume of a washer}\amp =\pi \left(
+x_2^2-x_1^2\right) \dx{y}\\
+\amp =\pi (x_2+x+1)(x_2-x_1)\dx{y}\\
+\amp =\left( 2\pi
+\frac{x_2+x_1}{2}\right)(\dx{y})(x_2-x_1)\\
+\amp =\text{average circumference}\cdot
+\text{height}\cdot \text{thickness}
+\end{align*}
+</div>
+<div class="para">While this is interesting geometrically, it does not help with computing integrals using washers.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-VolByShells-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="exer-GenShells"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.31</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Generic volume using shells.</span>
+</h4>
+<div class="introduction" id="exer-GenShells-2">
+<div class="para" id="exer-GenShells-2-1"> Consider the following region bounded by the curves <span class="process-math">\(y=y_1(x)\)</span> and <span class="process-math">\(y=y_2(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-GenShells-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="GenShells"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/IC/GenShells.png" class="contained" alt="Generic area bounded by two curves."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.32<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.32"><a tabindex="-1" href="#GenShells" title="Copy heading and permalink for Figure 21.1.2.32" aria-label="Copy heading and permalink for Figure 21.1.2.32">🔗</a></div></figcaption>
+</figure>
+</div>
+<article class="task exercise-like" id="exer-GenShells-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="exer-GenShells-3-1-1">Draw and label a generic vertical rectangle in this region and draw and label the shell generated by revolving this rectangle about the vertical line <span class="process-math">\(x=c\)</span> to the left of the region.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-GenShells-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.2.31.a"><a tabindex="-1" href="#exer-GenShells-3" title="Copy heading and permalink for Task 21.1.2.31.a" aria-label="Copy heading and permalink for Task 21.1.2.31.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exer-GenShells-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="exer-GenShells-4-1-1">
+<div class="para">Compute the volume of this shell and integrate it to show that the volume of the solid generated by revolving the region about the line <span class="process-math">\(x=c\)</span> is given by</div>
+<div class="displaymath process-math" id="exer-GenShells-4-1-1-2">
+\begin{equation*}
+2\pi \int_{x=a}^b (x-c)(y_2-y_1)\dx{x}.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-GenShells-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.2.31.b"><a tabindex="-1" href="#exer-GenShells-4" title="Copy heading and permalink for Task 21.1.2.31.b" aria-label="Copy heading and permalink for Task 21.1.2.31.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.31: Generic volume using shells"><a tabindex="-1" href="#exer-GenShells" title="Copy heading and permalink for Problem 21.1.2.31: Generic volume using shells" aria-label="Copy heading and permalink for Problem 21.1.2.31: Generic volume using shells">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exer-VolTorus"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.33</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volume of a torus.</span>
+</h4>
+<div class="para" id="exer-VolTorus-2-1"> Consider a circle of radius <span class="process-math">\(b\text{,}\)</span> whose center revolves around a line distance <span class="process-math">\(a\gt b\)</span> away. The “donut” formed is actually called a torus. Consider the following torus generated by revolving the circle <span class="process-math">\(x^2+y^2=b^2\)</span> about the line <span class="process-math">\(x=-a\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-VolTorus-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="exer-VolTorus-2-2">Show that the volume of this torus equals the area of the small circle times the circumference of the circle generated by revolving the center of this circle around the line. This was derived by <a class="external" href="https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/" target="_blank">Johannes Kepler</a> (1571–1630) and is a special case of a theorem by <a class="external" href="https://mathshistory.st-andrews.ac.uk/Biographies/Pappus/" target="_blank">Pappus of Alexandria</a> (290–350 AD).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-VolTorus-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<figure class="figure figure-like" id="VolTorus"><div class="image-box" style="width: 87%; margin-left: 6.5%; margin-right: 6.5%;"><img src="external/IC/VolTorus.png" class="contained" alt="A torus around the y axis."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.34<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.34"><a tabindex="-1" href="#VolTorus" title="Copy heading and permalink for Figure 21.1.2.34" aria-label="Copy heading and permalink for Figure 21.1.2.34">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.33: Volume of a torus"><a tabindex="-1" href="#exer-VolTorus" title="Copy heading and permalink for Problem 21.1.2.33: Volume of a torus" aria-label="Copy heading and permalink for Problem 21.1.2.33: Volume of a torus">🔗</a></div>
+</article>
+<div class="para" id="sec-VolByShells-13">So a natural question arises, “Which should I use, washers or shells?” The answer is that you can use either one; sometimes it is more convenient to use one over the other, other times it really doesn’t matter. The real question you need to ask in a particular problem is, “Is it better to put things all in terms of <span class="process-math">\(x\)</span> or in terms of <span class="process-math">\(y\text{.}\)</span>” This will determine if you want to use a vertical rectangle (of width <span class="process-math">\(\dx{x}\)</span>) or a horizontal rectangle (of width <span class="process-math">\(\dx{y}\)</span>). This will determine whether washers or shells are more appropriate.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-VolByShells-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="example-WashersOrShells"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.35</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Shell vs. Washers.</span>
+</h4>
+<div class="para" id="example-WashersOrShells-2"> Consider the following region bounded by <span class="process-math">\(y=\sqrt{1-x}\text{,}\)</span> <span class="process-math">\(y=x\text{,}\)</span> <span class="process-math">\(y=0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-WashersOrShells-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="figure-ShellsVSWashers"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/IC/ShellsVSWashers.png" class="contained" alt="Graph of y=square root of 1-x and y=x."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.36<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 21.1.2.36"><a tabindex="-1" href="#figure-ShellsVSWashers" title="Copy heading and permalink for Figure 21.1.2.36" aria-label="Copy heading and permalink for Figure 21.1.2.36">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="example-WashersOrShells-4">If we were to draw a vertical rectangle involving <span class="process-math">\(\dx{x}\text{,}\)</span> then any integral would, of necessity, need to be divided into two separate integrals to compute, since the <span class="process-math">\(y\)</span> coordinate of the upper point on the rectangle changes from one curve to the other. Utilizing, a horizontal rectangle would circumvent this problem.  However, we would need to be prepared to put everything in terms of <span class="process-math">\(y\)</span> instead of <span class="process-math">\(x\text{.}\)</span> Luckily, these two equations don’t look that bad with regard to this. We would still need to find the point of intersection, but that would have been the case with a vertical rectangle as well.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-WashersOrShells-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 21.1.2.35: Shell vs. Washers"><a tabindex="-1" href="#example-WashersOrShells" title="Copy heading and permalink for Example 21.1.2.35: Shell vs. Washers" aria-label="Copy heading and permalink for Example 21.1.2.35: Shell vs. Washers">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exer-ShellsVSWashers"><h4 class="heading">
+<span class="type">Problem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21.1.2.37</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="introduction" id="exer-ShellsVSWashers-1">
+<div class="para" id="exer-ShellsVSWashers-1-1"> Find the volumes of the solids generated by revolving horizontal rectangles about:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-ShellsVSWashers-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="exer-ShellsVSWashers-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="exer-ShellsVSWashers-2-1-1">The <span class="process-math">\(x\)</span>-axis.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-ShellsVSWashers-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.2.37.a"><a tabindex="-1" href="#exer-ShellsVSWashers-2" title="Copy heading and permalink for Task 21.1.2.37.a" aria-label="Copy heading and permalink for Task 21.1.2.37.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exer-ShellsVSWashers-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="exer-ShellsVSWashers-3-1-1">The <span class="process-math">\(y\)</span>-axis.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exer-ShellsVSWashers-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 21.1.2.37.b"><a tabindex="-1" href="#exer-ShellsVSWashers-3" title="Copy heading and permalink for Task 21.1.2.37.b" aria-label="Copy heading and permalink for Task 21.1.2.37.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Problem 21.1.2.37"><a tabindex="-1" href="#exer-ShellsVSWashers" title="Copy heading and permalink for Problem 21.1.2.37" aria-label="Copy heading and permalink for Problem 21.1.2.37">🔗</a></div>
+</article>
+<details id="sec-VolByShells-16" class="aside aside-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Aside<span class="colon heading-divison-mark heading-divison-mark__colon">:</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Note to self.</span>
+</h4></summary>
+<aside class="aside aside-like knowl__content">
+<div class="para" id="sec-VolByShells-16-2">Add several problems using shells and washers here — whichever makes the problem easier. Make sure to include a torus.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-VolByShells-16-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</aside></details><div class="autopermalink" aria-hidden="true" data-description="Subsubsection: Volumes by Shells"><a tabindex="-1" href="#sec-VolByShells" title="Copy heading and permalink for Subsubsection: Volumes by Shells" aria-label="Copy heading and permalink for Subsubsection: Volumes by Shells">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Subsection 21.1.2: Volumes"><a tabindex="-1" href="#VolumesByIntegration" title="Copy heading and permalink for Subsection 21.1.2: Volumes" aria-label="Copy heading and permalink for Subsection 21.1.2: Volumes">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section 21.1: Areas and Volumes"><a tabindex="-1" href="#SECTIONIntegrationExamples" title="Copy heading and permalink for Section 21.1: Areas and Volumes" aria-label="Copy heading and permalink for Section 21.1: Areas and Volumes">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="SECTIONWhyAreas.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="AreasByIntegration.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="CHAPTERAppDefInt.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-SurfAreaAndArcLength.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
